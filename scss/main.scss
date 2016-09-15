@@ -21,14 +21,24 @@ header{
 }
 
 .header-nav{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background-color: #2f2e2d;
   padding: 0 4% 0 2.5%;
   .site-search{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 6px 2px 11px 0;
     margin-left: 30px;
   }
@@ -62,8 +72,12 @@ header{
 }
 
 .main-menu{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -94,6 +108,7 @@ header{
   top: 100%;
   left: 0;
   width: 100%;
+  background: -webkit-linear-gradient(#b4de5c, #80be36);
   background: linear-gradient(#b4de5c, #80be36);
   box-shadow: 0px 15px 10px -8px rgba(0, 0, 0, 0.15);
   z-index: 20;
@@ -109,6 +124,7 @@ header{
   }
 }
 .main-menu__item:hover{
+  background: -webkit-linear-gradient(#c4e868, #b4de5c);
   background: linear-gradient(#c4e868, #b4de5c);
   .main-menu__item_hover-menu{
     display: block;
@@ -116,17 +132,30 @@ header{
 }
 
 .header-main{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 20px 4% 12px 4%;
   font-family: 'Malgun Gothic Regular';
   background: url(../img/leaf-header.png) no-repeat 38px -8px;
 }
 .contacts{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   margin-top: 10px;
   min-width: 213px;
   ul{
@@ -182,13 +211,20 @@ header{
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 8px 1px 8px;
+  background: -webkit-linear-gradient(#fae177, #dbbe40);
   background: linear-gradient(#fae177, #dbbe40);
 }
 
 .logo{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-transform: uppercase;
   span{
     font-size: 17px;
@@ -217,14 +253,16 @@ header{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  // -webkit-box-align: end;
-  //     -ms-flex-align: end;
-  //         align-items: flex-end;
+  /* -webkit-box-align: end;*/
+  /*     -ms-flex-align: end;*/
+  /*         align-items: flex-end;*/
   margin-top: 15px;
   width: 148px;
   background: url(../img/cart-icon.png) no-repeat 0 0;
@@ -270,11 +308,15 @@ section{
 
 .main__content{
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-end;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   background: url(../img/main-background.jpg) no-repeat;
   background-position-x: 60%;
-  // background-size: 100% 100%;
+  /* background-size: 100% 100%;*/
   padding: 5px 4% 2px 4%;
   ul{
     margin: 0;
@@ -289,9 +331,15 @@ section{
   }
 }
 .products__item{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: relative;
   &:nth-child(1){
     padding: 0 34px;
@@ -396,9 +444,16 @@ section{
   z-index: 50;
   opacity: .9999;
   h2{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     margin: 0;
     font-family: "Malgun Gothic Regular";
     text-transform: uppercase;
@@ -413,8 +468,12 @@ section{
     background-color: black;
   }
   ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     list-style: none;
     padding: 0;
     margin: 28px 0 0 0;
@@ -423,9 +482,16 @@ section{
     line-height: 1.7;
   }
   li{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     max-width: 185px;
   }
   .icon{
@@ -458,8 +524,12 @@ footer{
   color: #ffffff;
 }
 .footer-info{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding-top: 12px;
   padding-bottom: 20px;
   h3{
@@ -513,8 +583,12 @@ footer{
 }
 
 .footer-logo{
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   position: relative;
   .organisation-name{
     text-transform: uppercase;
