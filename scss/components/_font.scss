@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Malgun Gothic Regular';
+  src: url('../fonts/malgun/malgun.woff2') format('woff2'),
+  url('../fonts/malgun/MalgunGothicRegular.woff') format('woff'),
+       url('../fonts/malgun/MalgunGothicRegular.ttf') format('truetype'),
+       url('../fonts/malgun/MalgunGothicRegular.svg#MalgunGothicRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Malgun Gothic Regular';
+  src: url('../fonts/malgun/malgun.eot');
+  src: url('../fonts/malgun/malgun.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Malgun Gothic Bold';
+  src: url('../fonts/malgun/malgunbd.woff2') format('woff2'),
+       url('../fonts/malgun/MalgunGothicBold.woff') format('woff'),
+       url('../fonts/malgun/MalgunGothicBold.ttf') format('truetype'),
+       url('../fonts/malgun/MalgunGothicBold.svg#MalgunGothicBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Malgun Gothic Bold';
+  src: url('../fonts/malgun/malgunbd.eot');
+  src: url('../fonts/malgun/malgunbd.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../fonts/calibri/calibri.woff2') format('woff2'),
+       url('../fonts/calibri/Calibri.woff') format('woff'),
+       url('../fonts/calibri/Calibri.ttf') format('truetype'),
+       url('../fonts/calibri/Calibri.svg#Calibri') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri';
+  src: url('../fonts/calibri/calibri.eot');
+  src: url('../fonts/calibri/calibri.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri Bolder';
+  src: url('../fonts/calibri/calibrib.woff2') format('woff2'),
+       url('../fonts/calibri/Calibri-Bold.woff') format('woff'),
+       url('../fonts/calibri/Calibri-Bold.ttf') format('truetype'),
+       url('../fonts/calibri/Calibri-Bold.svg#Calibri-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Calibri Bolder';
+  src: url('../fonts/calibri/calibrib.eot');
+  src: url('../fonts/calibri/calibrib.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}

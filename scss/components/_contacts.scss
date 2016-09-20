@@ -1,0 +1,60 @@
+@import "compass/utilities/sprites";
+$icons-layout: smart;
+@import "icons/*.png";
+$icons-sprite-dimensions: true;
+@include all-icons-sprites;
+
+.contacts{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 10px;
+  min-width: 213px;
+  ul{
+    padding: 0;
+    margin: 0 8px 6px 0;
+    list-style: none;
+    font-size: 1.2em;
+    line-height: 1.7;
+    text-align: right;
+  }
+  span{
+    font-size: 0.88em;
+    margin: 0 4px 12px 0;
+    vertical-align: middle;
+  }
+}
+.contacts__item{
+  position: relative;
+  &::before{
+    content: '';
+    position: absolute;
+    display: inline-block;
+  }
+}
+.contacts__phone::before{
+  @include icons-sprite(phone_green);
+  top: 0.35em;
+  left: -37px;
+}
+
+.contacts__email{
+  text-decoration: none;
+  color: inherit;
+  &::before{
+    @include icons-sprite(message_green);
+    top: 0.35em;
+    left: -36px;
+  }
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+}

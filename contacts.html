@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" >
+  <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
+  <title>Ринджана - Контакты</title>
+  <!-- <link rel="stylesheet" href="css/normalize.css" media="screen" title="no title"> -->
+  <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
+  <!-- Скрипт для livereload (не забыть удалить!) -->
+  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav class="header__item header-nav">
+        <ul class="main-menu">
+          <li class="main-menu__item"><a href="#">О&#160;компании</a></li>
+          <li class="main-menu__item_icon"></li>
+          <li class="main-menu__item">
+            <a href="#">Продукция</a>
+            <ul class="main-menu__item_hover-menu">
+              <li><a href="#">Орехи</a></li>
+              <li><a href="#">Сухофрукты</a></li>
+              <li><a href="#">Цукаты</a></li>
+              <li><a href="#">Снеки</a></li>
+            </ul>
+          </li>
+          <li class="main-menu__item_icon"></li>
+          <li class="main-menu__item"><a href="#">Оплата и Доставка</a></li>
+          <li class="main-menu__item_icon"></li>
+          <li class="main-menu__item main-menu__item_active"><a>Контакты</a></li>
+        </ul>
+        <form class="site-search" action="index.html" method="post">
+          <input type="search" name="site-search-field" value="" placeholder="Поиск...">
+          <button class="icons-search" type="submit" name="site-search-button"></button>
+        </form>
+      </nav>
+      <div class="header__item header-main">
+        <div class="contacts">
+          <ul>
+            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+          </ul>
+          <span>Ежедневно 24 часа в сутки</span>
+          <a class="contacts__call-req link-button" href="#">обратный звонок</a>
+        </div>
+        <div class="header-main__logo logo">
+          <span class="logo__nuts">Орехи</span>
+          <a href="index.html"><h1>OOO "Ринджана"</h1></a>
+          <span class="logo__fruits">Сухофрукты</span>
+        </div>
+        <div class="cart">
+          <h3>Корзина</h3>
+          <span class="cart__quantity-header">Товаров:&#160;<span class="cart__quantity">0</span></span>
+          <a class="link-button" href="#">Оформить заказ</a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="main__content main__content_contacts-page">
+        <aside class="main__sidebar">
+          <h3>Продукция</h3>
+          <ul>
+            <li><a href="#"><span>О</span>рехи</a><img src="img/nuts-main-photo.png" alt="Орехи" width="43" height="25"/></li>
+            <li><a href="#"><span>С</span>ухофрукты</a><img src="img/fruits-main-photo.png" alt="Сухофрукты" width="35" height="22"/></li>
+            <li><a href="#"><span>Ц</span>укаты</a><img src="img/candied-main-photo.png" alt="Цукаты" width="49" height="23"/></li>
+            <li><a href="#"><span>С</span>неки</a><img src="img/snacks-main-photo.png" alt="Снеки" width="38" height="19"/></li>
+          </ul>
+        </aside>
+        <div class="main__contents">
+          <ul class="bread-crumbs">
+            <li><a href="#"><span>П</span>родукция</a>&#160;/</li>
+            <li><a><strong><span>К</span>онтакты</strong></a></li>
+          </ul>
+          <h2>Контакты</h2>
+          <div class="main__contacts-wrapper">
+            <div class="contacts main__contacts">
+              <ul>
+                <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
+                <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+              </ul>
+              <span>Ежедневно 24 часа в сутки</span>
+            </div>
+            <div class="address">
+              <b>Юридический адрес:</b><br>
+              <span class="address_margin">117525, Россия, г. Москва, ул.Днепропетровская, д.&#160;3, корп.&#160;3, кв.&#160;186</span>
+              <b>Адрес производства:</b><br>
+              <span>11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
+            </div>
+            <div class="main__contacts-wrapper_black-block">
+              <img src="img/rinjana-logo.png" alt="Логотип ООО Ринджана" height="90" width="90"/>
+            </div>
+            <div class="main__contacts-wrapper_green-block"></div>
+          </div>
+          <div class="main__form-wrapper">
+            <form class="order-form" action="index.html" method="post">
+              <strong>Оформить заказ</strong>
+              <label for="name">
+                <input id="name" type="text" name="name" value="" placeholder="Ваше имя">
+              </label>
+              <label for="phone">
+                <input id="phone" type="text" name="phone" value="" placeholder="Телефон">
+              </label>
+              <label for="email">
+                <input id="email" type="email" name="email" value="" placeholder="Email">
+              </label>
+              <label for="comment">
+                <textarea id="comment" name="comment" rows="8" cols="40" placeholder="Комментарий"></textarea>
+              </label>
+              <span class="order-form__button-wrapper"><button type="submit" name="submit">Отправить</button><span>После отправки с вами свяжется наш менеджер в течении 15 минут</span></span>
+            </form>
+            <ul class="main__delivery-pros">
+              <li><span class="capital-letter">Д</span>оставка товара по всей России и СНГ</li>
+              <li><span class="capital-letter">Н</span>ет ограничений на вес и сумму заказа, работаем от 1 кг</li>
+              <li><span class="capital-letter">О</span>тправляем товар в день оплаты</li>
+              <li><span class="capital-letter"><span>Б</span>есплатная доставка</span> до любой транспортной компании</li>
+            </ul>
+          </div>
+        </div>
+        <img class="main__leaf_right_48" src="img/leaf-main.png" alt="Лист" width="63" height="61"/>
+        <img class="main__leaf_back" src="img/leaf-main-back.png" alt="Лист" width="63" height="61"/>
+      </section>
+      <section class="main__advantages">
+        <h2>Наши преимущества<span class="underline"></span></h2>
+        <ul>
+          <li><div class="main__advantages_margin-bottom_10 icons-portmone"></div>Реальные<br>конкурентные цены</li>
+          <li><div class="main__advantages_margin-bottom_10 icons-hand"></div>Отсрочка платежа<br>для постоянных<br>клиентов</li>
+          <li><div class="main__advantages_margin-bottom_10 icons-car"></div>Работаем для<br>клиентов всех<br>масштабов</li>
+          <li><div class="main__advantages_margin-bottom_10 icons-doc"></div>оформление всей<br>необходимой<br>документации</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <div class="footer__item footer-info">
+        <nav>
+          <h3>Навигация</h3>
+          <ul class="footer-info__nav">
+            <li><a href="#">О компании</a></li>
+            <li><a href="#">Продукция</a></li>
+            <li><a href="#">Оплата и Доставка</a></li>
+            <li><a>Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="address address">
+          <b>Юридический адрес:</b><br>
+          <span class="address_margin">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
+          <b>Адрес производства:</b><br>
+          <span>11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
+        </div>
+        <div class="contacts">
+          <ul>
+            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+          </ul>
+          Ежедневно 24 часа в сутки<br>
+        </div>
+      </div>
+      <div class="footer__item footer-logo">
+        <div class="footer-logo__logo logo">
+          <span class="footer-logo__logo_width_nuts">Орехи</span>
+          <img src="img/rinjana-logo-footer.png" alt="ООО Ринджана" width="83" height="83"/>
+          <span class="footer-logo__logo_width_fruits">Сухофрукты</span>
+        </div>
+        <img class="footer-logo__image-decor" src="img/footer-image.png" alt="Орехи и сухофрукты в пакетиках" width="178" height="135"/>
+        <span class="organisation-name">ООО «Ринджана»</span>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
