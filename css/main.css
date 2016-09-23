@@ -177,6 +177,39 @@ textarea {
   font: inherit;
 }
 
+.main__content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  background: url(../img/main-background.jpg) no-repeat;
+  background-position-x: 60%;
+  background-size: cover;
+  padding: 5px 4% 2px 4%;
+}
+.main__content .products {
+  margin: 0;
+  padding: 0;
+  min-width: 545px;
+  line-height: 2.34;
+  font-size: 22px;
+  font-family: "Malgun Gothic Regular";
+  text-transform: uppercase;
+  list-style: none;
+  z-index: 10;
+}
+
+.main__content_long-page {
+  justify-content: space-between;
+  background: url(../img/main-background_contacts.jpg);
+  background-repeat: repeat-y;
+  background-position-x: 60%;
+  padding-top: 23px;
+}
+
 .main__leaf_back {
   position: absolute;
   top: 339px;
@@ -230,7 +263,7 @@ footer {
 }
 
 .icons-doc {
-  background-position: 0 -144px;
+  background-position: 0 -396px;
   height: 84px;
   width: 84px;
 }
@@ -260,7 +293,7 @@ footer {
 }
 
 .icons-hand {
-  background-position: 0 -312px;
+  background-position: 0 -144px;
   height: 84px;
   width: 84px;
 }
@@ -272,43 +305,43 @@ footer {
 }
 
 .icons-message {
-  background-position: -43px 0;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-message_green {
-  background-position: 0 -70px;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-message_green_mini {
-  background-position: -29px -22px;
-  height: 18px;
-  width: 18px;
-}
-
-.icons-phone {
-  background-position: -47px -22px;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-phone_green {
   background-position: -22px -70px;
   height: 22px;
   width: 22px;
 }
 
-.icons-phone_green_mini {
+.icons-message_green {
+  background-position: -47px -22px;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-message_green_mini {
   background-position: 0 0;
   height: 18px;
   width: 18px;
 }
 
+.icons-phone {
+  background-position: -43px 0;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-phone_green {
+  background-position: 0 -70px;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-phone_green_mini {
+  background-position: -29px -22px;
+  height: 18px;
+  width: 18px;
+}
+
 .icons-portmone {
-  background-position: 0 -396px;
+  background-position: 0 -312px;
   height: 84px;
   width: 84px;
 }
@@ -466,6 +499,48 @@ footer {
   top: calc(50% - 9px);
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Malgun Gothic Bold';
+  text-transform: uppercase;
+  font-size: 10px;
+}
+table thead {
+  font-family: 'Malgun Gothic Regular';
+  font-weight: normal;
+  vertical-align: top;
+  height: 52px;
+}
+table .table-col-1 {
+  padding: 1em 10px 1em 0;
+}
+table th {
+  padding-top: 7px;
+}
+table tbody {
+  border-top: 1px solid #2f2e2d;
+  border-bottom: 1px solid #2f2e2d;
+}
+table th::first-letter {
+  font-size: 1.3em;
+}
+table .table-col-1::first-letter {
+  font-size: 1.3em;
+}
+
+tfoot {
+  line-height: 3.5;
+}
+tfoot td::first-letter {
+  font-size: 1.3em;
+}
+
+.icons-sprite, .icons-acorn, .icons-car, .icons-cart, .icons-doc, .icons-form_comment, .icons-form_email, .icons-form_man, .icons-form_phone, .icons-hand, .icons-mark, .icons-message, .icons-message_green, .icons-message_green_mini, .icons-phone, .icons-phone_green, .icons-phone_green_mini, .icons-portmone, .icons-search, .main__form-wrapper label[for="name"]::before, .main__form-wrapper label[for="phone"]::before, .main__form-wrapper label[for="email"]::before, .main__form-wrapper label[for="comment"]::before, .main__delivery-pros li::before, .contacts__phone::before, .contacts__email::before, .main__contacts .contacts__phone::before, .main__contacts .contacts__email::before, .main-menu__item_icon, .cart::before, .footer-info .contacts .contacts__phone:before, .footer-info .contacts .contacts__email::before {
+  background-image: url('../img/icons-s01818eab9e.png');
+  background-repeat: no-repeat;
+}
+
 .icons-acorn {
   background-position: -27px 0;
   height: 18px;
@@ -485,7 +560,7 @@ footer {
 }
 
 .icons-doc {
-  background-position: 0 -144px;
+  background-position: 0 -396px;
   height: 84px;
   width: 84px;
 }
@@ -515,7 +590,7 @@ footer {
 }
 
 .icons-hand {
-  background-position: 0 -312px;
+  background-position: 0 -144px;
   height: 84px;
   width: 84px;
 }
@@ -527,43 +602,43 @@ footer {
 }
 
 .icons-message {
-  background-position: -43px 0;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-message_green {
-  background-position: 0 -70px;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-message_green_mini {
-  background-position: -29px -22px;
-  height: 18px;
-  width: 18px;
-}
-
-.icons-phone {
-  background-position: -47px -22px;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-phone_green {
   background-position: -22px -70px;
   height: 22px;
   width: 22px;
 }
 
-.icons-phone_green_mini {
+.icons-message_green {
+  background-position: -47px -22px;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-message_green_mini {
   background-position: 0 0;
   height: 18px;
   width: 18px;
 }
 
+.icons-phone {
+  background-position: -43px 0;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-phone_green {
+  background-position: 0 -70px;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-phone_green_mini {
+  background-position: -29px -22px;
+  height: 18px;
+  width: 18px;
+}
+
 .icons-portmone {
-  background-position: 0 -396px;
+  background-position: 0 -312px;
   height: 84px;
   width: 84px;
 }
@@ -612,7 +687,7 @@ footer {
 }
 
 .contacts__phone::before {
-  background-position: -22px -70px;
+  background-position: 0 -70px;
   height: 22px;
   width: 22px;
   top: 0.35em;
@@ -624,7 +699,7 @@ footer {
   color: inherit;
 }
 .contacts__email::before {
-  background-position: 0 -70px;
+  background-position: -47px -22px;
   height: 22px;
   width: 22px;
   top: 0.35em;
@@ -674,13 +749,13 @@ h2::first-letter {
   src: url("../fonts/malgun/malgun.eot");
   src: url("../fonts/malgun/malgun.eot?#iefix") format("embedded-opentype");
   font-weight: normal;
-  font-style: normal;
+  font-style: sans-serif;
 }
 @font-face {
   font-family: 'Malgun Gothic Bold';
   src: url("../fonts/malgun/malgunbd.woff2") format("woff2"), url("../fonts/malgun/MalgunGothicBold.woff") format("woff"), url("../fonts/malgun/MalgunGothicBold.ttf") format("truetype"), url("../fonts/malgun/MalgunGothicBold.svg#MalgunGothicBold") format("svg");
   font-weight: normal;
-  font-style: normal;
+  font-style: sans-serif;
 }
 @font-face {
   font-family: 'Malgun Gothic Bold';
@@ -715,6 +790,66 @@ h2::first-letter {
   font-weight: normal;
   font-style: normal;
 }
+.cart-table {
+  background: url(../img/cart-table-background.png) no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 43px;
+}
+.cart-table th:first-child {
+  text-align: left;
+  width: 28.5%;
+}
+.cart-table th:nth-child(2) {
+  text-align: left;
+  width: 19.1%;
+}
+.cart-table th:nth-child(3) {
+  width: 18.8%;
+}
+.cart-table th:nth-child(4) {
+  width: 19%;
+}
+.cart-table .cart-table_cell-padding-left_27 {
+  padding-left: 27px;
+}
+.cart-table .cart-table_cell-align_center {
+  text-align: center;
+}
+.cart-table .cart-table_cell-align_right {
+  text-align: right;
+}
+.cart-table .cart-table__price-cell,
+.cart-table .cart-table__summ-cell,
+.cart-table .cart-table__product-qnt,
+.cart-table .cart-table__summ-total {
+  font-size: 14px;
+}
+.cart-table .cart-table__cy {
+  text-transform: none;
+}
+
+.cart-table__qnt {
+  font-size: 12px;
+  border: 2px solid #80be36;
+  border-radius: 2px;
+  padding: 3px 12px;
+  margin: 0 5px;
+}
+
+.cart-table__minus-btn,
+.cart-table__plus-btn,
+.cart-table__del-btn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #80be36;
+  cursor: pointer;
+}
+
+.cart-table__reset-btn {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
 .main__contacts-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -767,13 +902,13 @@ h2::first-letter {
   line-height: 2.25;
 }
 .main__contacts .contacts__phone::before {
-  background-position: 0 0;
+  background-position: -29px -22px;
   height: 18px;
   width: 18px;
   top: 0.55em;
 }
 .main__contacts .contacts__email::before {
-  background-position: -29px -22px;
+  background-position: 0 0;
   height: 18px;
   width: 18px;
   top: 0.55em;
@@ -781,6 +916,11 @@ h2::first-letter {
 .main__contacts span {
   margin: 0 80px 0 0;
   font-size: 0.97em;
+}
+
+.icons-sprite, .icons-acorn, .icons-car, .icons-cart, .icons-doc, .icons-form_comment, .icons-form_email, .icons-form_man, .icons-form_phone, .icons-hand, .icons-mark, .icons-message, .icons-message_green, .icons-message_green_mini, .icons-phone, .icons-phone_green, .icons-phone_green_mini, .icons-portmone, .icons-search, .main__form-wrapper label[for="name"]::before, .main__form-wrapper label[for="phone"]::before, .main__form-wrapper label[for="email"]::before, .main__form-wrapper label[for="comment"]::before, .main__delivery-pros li::before, .contacts__phone::before, .contacts__email::before, .main__contacts .contacts__phone::before, .main__contacts .contacts__email::before, .main-menu__item_icon, .cart::before, .footer-info .contacts .contacts__phone:before, .footer-info .contacts .contacts__email::before {
+  background-image: url('../img/icons-s01818eab9e.png');
+  background-repeat: no-repeat;
 }
 
 .icons-acorn {
@@ -802,7 +942,7 @@ h2::first-letter {
 }
 
 .icons-doc {
-  background-position: 0 -144px;
+  background-position: 0 -396px;
   height: 84px;
   width: 84px;
 }
@@ -832,7 +972,7 @@ h2::first-letter {
 }
 
 .icons-hand {
-  background-position: 0 -312px;
+  background-position: 0 -144px;
   height: 84px;
   width: 84px;
 }
@@ -844,43 +984,43 @@ h2::first-letter {
 }
 
 .icons-message {
-  background-position: -43px 0;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-message_green {
-  background-position: 0 -70px;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-message_green_mini {
-  background-position: -29px -22px;
-  height: 18px;
-  width: 18px;
-}
-
-.icons-phone {
-  background-position: -47px -22px;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-phone_green {
   background-position: -22px -70px;
   height: 22px;
   width: 22px;
 }
 
-.icons-phone_green_mini {
+.icons-message_green {
+  background-position: -47px -22px;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-message_green_mini {
   background-position: 0 0;
   height: 18px;
   width: 18px;
 }
 
+.icons-phone {
+  background-position: -43px 0;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-phone_green {
+  background-position: 0 -70px;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-phone_green_mini {
+  background-position: -29px -22px;
+  height: 18px;
+  width: 18px;
+}
+
 .icons-portmone {
-  background-position: 0 -396px;
+  background-position: 0 -312px;
   height: 84px;
   width: 84px;
 }
@@ -1123,18 +1263,23 @@ header {
 .cart .cart__quantity-header {
   font-size: 11px;
   font-weight: bolder;
-  margin: 0 0 20px 0;
-  width: 88px;
+  width: 100px;
+  min-height: 40px;
+  margin-bottom: 5px;
+  text-indent: 13px;
 }
 .cart .cart__quantity-header::first-letter {
   font-size: 1.3em;
 }
 .cart .cart__quantity {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: normal;
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
   color: #dd2b0e;
   width: 17px;
+}
+.cart .cart__quantity_font-size_12 {
+  font-size: 12px;
 }
 .cart .link-button {
   margin-right: 4px;
@@ -1146,31 +1291,6 @@ main {
 
 section {
   overflow: hidden;
-}
-
-.main__content {
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  background: url(../img/main-background.jpg) no-repeat;
-  background-position-x: 60%;
-  /* background-size: 100% 100%;*/
-  padding: 5px 4% 2px 4%;
-}
-.main__content .products {
-  margin: 0;
-  padding: 0;
-  min-width: 545px;
-  line-height: 2.34;
-  font-size: 22px;
-  font-family: "Malgun Gothic Regular";
-  text-transform: uppercase;
-  list-style: none;
-  z-index: 10;
 }
 
 .products__item {
@@ -1408,12 +1528,12 @@ section {
   font-size: 16px;
 }
 .footer-info .contacts .contacts__phone:before {
-  background-position: -47px -22px;
+  background-position: -43px 0;
   height: 22px;
   width: 22px;
 }
 .footer-info .contacts .contacts__email::before {
-  background-position: -43px 0;
+  background-position: -22px -70px;
   height: 22px;
   width: 22px;
   top: 0.25em;
@@ -1451,14 +1571,6 @@ section {
 }
 .footer-logo__logo .footer-logo__logo_width_fruits {
   width: 120px;
-}
-
-.main__content_contacts-page {
-  display: flex;
-  justify-content: space-between;
-  background: url(../img/main-background_contacts.jpg) no-repeat;
-  background-size: 100% 100%;
-  padding-top: 23px;
 }
 
 aside {
@@ -1539,3 +1651,5 @@ aside img[src="img/snacks-main-photo.png"] {
 .bread-crumbs li {
   display: inline-block;
 }
+
+/*# sourceMappingURL=main.css.map */

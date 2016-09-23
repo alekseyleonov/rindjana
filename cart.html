@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" >
   <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
-  <title>Ринджана - Контакты</title>
+  <title>Ринджана - Корзина</title>
   <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
 </head>
 <body>
@@ -25,7 +25,7 @@
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item"><a href="#">Оплата и Доставка</a></li>
           <li class="main-menu__item_icon"></li>
-          <li class="main-menu__item main-menu__item_active"><a>Контакты</a></li>
+          <li class="main-menu__item main-menu__item_active"><a href="contacts.html" >Контакты</a></li>
         </ul>
         <form class="site-search" action="index.html" method="post">
           <input type="search" name="site-search-field" value="" placeholder="Поиск...">
@@ -48,8 +48,7 @@
         </div>
         <div class="cart">
           <h3>Корзина</h3>
-          <span class="cart__quantity-header">Товаров: <span class="cart__quantity"><span class="cart__quantity_font-size_12">0</span></span></span>
-          <a class="link-button" href="cart.html">Оформить заказ</a>
+            <span class="cart__quantity-header">Товаров: <span class="cart__quantity"><span class="cart__quantity_font-size_12">3</span>&#160;шт, <span class="cart__quantity_font-size_12">456</span>&#160;руб</span></span>          <a class="link-button" href="#">Оформить заказ</a>
         </div>
       </div>
     </header>
@@ -66,29 +65,49 @@
         </aside>
         <div class="main__contents">
           <ul class="bread-crumbs">
-            <li><a href="#"><span>П</span>родукция</a>&#160;/</li>
-            <li><a><strong><span>К</span>онтакты</strong></a></li>
+            <li><a href="index.html"><span>Г</span>лавная</a>&#160;/</li>
+            <li><a><strong><span>К</span>орзина</strong></a></li>
           </ul>
-          <h2>Контакты</h2>
-          <div class="main__contacts-wrapper">
-            <div class="contacts main__contacts">
-              <ul>
-                <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-                <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
-              </ul>
-              <span>Ежедневно 24 часа в сутки</span>
-            </div>
-            <div class="address">
-              <b>Юридический адрес:</b><br>
-              <span class="address_margin">117525, Россия, г. Москва, ул.Днепропетровская, д.&#160;3, корп.&#160;3, кв.&#160;186</span>
-              <b>Адрес производства:</b><br>
-              <span>11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
-            </div>
-            <div class="main__contacts-wrapper_black-block">
-              <img src="img/rinjana-logo.png" alt="Логотип ООО Ринджана" height="90" width="90"/>
-            </div>
-            <div class="main__contacts-wrapper_green-block"></div>
-          </div>
+          <h2>Корзина</h2>
+          <table class="cart-table">
+            <thead>
+              <tr>
+                <th>Наименование</th>
+                <th class="cart-table_cell-padding-left_27">Цена</th>
+                <th>Количество</th>
+                <th>Сумма</th>
+                <th>Удалить</th>
+              </tr>
+            </thead>
+            <tfoot>
+              <td colspan="2"><span class="cart-table__reset-btn">Очистить корзину</span></td>
+              <td class="cart-table_cell-align_right">Всего товаров:&#160;<span class="cart-table__product-qnt">3</span></td>
+              <td class="cart-table_cell-align_right" colspan="2">Итого:&#160;<span class="cart-table__summ-total">456</span>&#160;руб</td>
+            </tfoot>
+            <tbody>
+              <tr>
+                <td class="table-col-1">Грецкий орех очищенный</td>
+                <td class="cart-table_cell-padding-left_27"><span class="cart-table__price-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__minus-btn">-</span><span class="cart-table__qnt">2</span><span class="cart-table__plus-btn">+</span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__summ-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__del-btn">X</span></td>
+              </tr>
+              <tr>
+                <td class="table-col-1">Миндаль жареный</td>
+                <td class="cart-table_cell-padding-left_27"><span class="cart-table__price-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__minus-btn">-</span><span class="cart-table__qnt">1</span><span class="cart-table__plus-btn">+</span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__summ-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__del-btn">X</span></td>
+              </tr>
+              <tr>
+                <td class="table-col-1">Сушёная вишня</td>
+                <td class="cart-table_cell-padding-left_27"><span class="cart-table__price-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__minus-btn">-</span><span class="cart-table__qnt">1</span><span class="cart-table__plus-btn">+</span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__summ-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__del-btn">X</span></td>
+              </tr>
+            </tbody>
+          </table>
           <div class="main__form-wrapper">
             <form class="order-form" action="index.html" method="post">
               <strong>Оформить заказ</strong>
@@ -164,7 +183,6 @@
     </footer>
   </div>
   <script type="text/javascript" src="http://localhost:35729/livereload.js">
-
   </script>
 </body>
 </html>

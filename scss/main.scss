@@ -17,6 +17,7 @@
 @import 'layout/footer';
 // @import 'layout/sidebar';
 @import 'layout/forms';
+@import "layout/table";
 //
 // @import 'components/buttons';
 // @import 'components/carousel';
@@ -29,7 +30,7 @@
 @import "components/capital-letter";
 @import "components/font";
 
-// @import 'pages/home';
+@import 'pages/cart';
 @import 'pages/contacts-page';
 //
 // @import 'themes/theme';
@@ -43,48 +44,6 @@ $icons-layout: smart;
 @import "icons/*.png";
 $icons-sprite-dimensions: true;
 @include all-icons-sprites;
-
-// @font-face {
-//   font-family: 'Calibri';
-//   src: url(../fonts/calibri/calibri.ttf);
-//   font-weight: normal;
-//   font-style: normal;
-// }
-//
-// @font-face {
-//   font-family: 'Calibri Bolder';//, Sans-Serif;
-//   src: url(../fonts/calibri/calibrib.ttf);
-//   font-weight: normal;
-//   font-style: normal;
-// }
-
-// @font-face {
-//   font-family: 'Calibri Italic';
-//   src: url(../fonts/calibri/calibrii.ttf);
-//   font-weight: normal;
-//   font-style: normal;
-// }
-//
-// @font-face {
-//   font-family: 'Calibri Light';
-//   src: url(../fonts/calibri/calibril.ttf);
-//   font-weight: normal;
-//   font-style: normal;
-// }
-//
-// @font-face {
-//   font-family: 'Calibri Light Italic';
-//   src: url(../fonts/calibri/calibrili.ttf);
-//   font-weight: normal;
-//   font-style: normal;
-// }
-//
-// @font-face {
-//   font-family: 'Calibri Bold Italic';
-//   src: url(../fonts/calibri/calibrilz.ttf);
-//   font-weight: normal;
-//   font-style: normal;
-// }
 
 body{
   font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
@@ -309,18 +268,24 @@ header{
   .cart__quantity-header{
     font-size: 11px;
     font-weight: bolder;
-    margin: 0 0 20px 0;
-    width: 88px;
+    width: 100px;
+    min-height: 40px;
+    margin-bottom: 5px;
+    text-indent: 13px;
     &::first-letter{
       font-size: 1.3em;
     }
   }
   .cart__quantity{
-    display: inline-block;
-    font-size: 14px;
-    font-weight: normal;
+    // display: inline-block;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
     color: #dd2b0e;
     width: 17px;
+  }
+  .cart__quantity_font-size_12{
+    font-size: 12px;
   }
   .link-button{
     margin-right: 4px;
@@ -335,30 +300,6 @@ section{
   overflow: hidden;
 }
 
-.main__content{
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-  background: url(../img/main-background.jpg) no-repeat;
-  background-position-x: 60%;
-  /* background-size: 100% 100%;*/
-  padding: 5px 4% 2px 4%;
-  .products{
-    margin: 0;
-    padding: 0;
-    min-width: 545px;
-    line-height: 2.34;
-    font-size: 22px;
-    font-family: "Malgun Gothic Regular";
-    text-transform: uppercase;
-    list-style: none;
-    z-index: 10;
-  }
-}
 .products__item{
   display: -webkit-box;
   display: -ms-flexbox;
@@ -624,17 +565,6 @@ section{
     width: 120px;
     // margin-left: 11px;
   }
-}
-
-// Страница контактов
-// ==================
-
-.main__content_contacts-page{
-  display: flex;
-  justify-content: space-between;
-  background: url(../img/main-background_contacts.jpg) no-repeat;
-  background-size: 100% 100%;
-  padding-top: 23px;
 }
 
 aside{

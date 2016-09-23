@@ -1,3 +1,38 @@
+//Основные настройки контентной части главной страницы
+
+.main__content{
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  background: url(../img/main-background.jpg) no-repeat;
+  background-position-x: 60%;
+  background-size: cover;
+  padding: 5px 4% 2px 4%;
+  .products{
+    margin: 0;
+    padding: 0;
+    min-width: 545px;
+    line-height: 2.34;
+    font-size: 22px;
+    font-family: "Malgun Gothic Regular";
+    text-transform: uppercase;
+    list-style: none;
+    z-index: 10;
+  }
+}
+
+.main__content_long-page{
+  justify-content: space-between;
+  background: url(../img/main-background_contacts.jpg);
+  background-repeat: repeat-y;
+  background-position-x: 60%;
+  padding-top: 23px;
+}
+
 .main__leaf_back{
   position: absolute;
   top: 339px;

@@ -1,0 +1,35 @@
+table{
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'Malgun Gothic Bold';
+  text-transform: uppercase;
+  font-size: 10px;
+  thead{
+    font-family: 'Malgun Gothic Regular';
+    font-weight: normal;
+    vertical-align: top;
+    height: 52px;
+  }
+  .table-col-1{
+    padding: 1em 10px 1em 0;
+  }
+  th{
+    padding-top: 7px;
+  }
+  tbody{
+    border-top: 1px solid $color_dark-elem-default;
+    border-bottom: 1px solid $color_dark-elem-default;
+  }
+  th::first-letter{
+    font-size: 1.3em;
+  }
+  .table-col-1::first-letter{
+    font-size: 1.3em;
+  }
+}
+tfoot{
+  line-height: 3.5;
+  td::first-letter{
+    font-size: 1.3em;
+  }
+}
