@@ -1,0 +1,38 @@
+.main__contacts-wrapper_margin_45{
+  margin-bottom: 45px;
+}
+.main__contacts-wrapper_bg_white{
+  position: relative;
+  background-color: white;
+  .main__contacts-wrapper_yellow-block{
+    position: absolute;
+    background-color: $color_yellow;
+    width: 72px;
+    height: 100%;
+    left: calc(50% - 36px);
+    top: 0;
+    z-index: 45;
+    opacity: 0.7;
+  }
+  .main__contacts-wrapper_black-block{
+    z-index: 55;
+  }
+  .main__contacts-wrapper_green-block{
+    z-index: 54;
+  }
+}
+.main__leaf_bottom-24{
+  bottom: -24px;
+}
+.main__leaf_top_325{
+  top: 325px;
+}
+.main__about{
+  background: transparent;
+  margin: 0;
+  padding: 11px 17px 38px 25px;
+  z-index: 50;
+  .main__about_color_green{
+    color: $color_neon-green;
+  }
+}

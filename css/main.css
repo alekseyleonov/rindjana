@@ -177,6 +177,10 @@ textarea {
   font: inherit;
 }
 
+.capital-letter {
+  font-size: 1.2em;
+}
+
 .main__content {
   position: relative;
   display: -webkit-box;
@@ -208,6 +212,7 @@ textarea {
   background-repeat: repeat-y;
   background-position-x: 60%;
   padding-top: 23px;
+  z-index: 0;
 }
 
 .main__leaf_back {
@@ -239,6 +244,47 @@ footer {
   left: 6vh;
 }
 
+.main__contacts-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #f8e58b;
+  margin-bottom: 33px;
+  min-width: 590px;
+  box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.3);
+}
+.main__contacts-wrapper .main__contacts-wrapper_black-block,
+.main__contacts-wrapper .main__contacts-wrapper_green-block {
+  width: 50%;
+  height: 51px;
+  box-shadow: inset 0px 1px 3px 3px rgba(255, 255, 255, 0.3);
+}
+.main__contacts-wrapper .main__contacts-wrapper_black-block {
+  background-color: #2f2e2d;
+  position: relative;
+}
+.main__contacts-wrapper .main__contacts-wrapper_green-block {
+  background-color: #80bc38;
+}
+.main__contacts-wrapper img {
+  position: absolute;
+  bottom: 0;
+  left: calc(100% - 45px);
+  z-index: 55;
+}
+.main__contacts-wrapper p {
+  font-family: Arial,Helvetica Neue,Helvetica,sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 2.15;
+}
+
 .icons-sprite, .icons-acorn, .icons-car, .icons-cart, .icons-doc, .icons-form_comment, .icons-form_email, .icons-form_man, .icons-form_phone, .icons-hand, .icons-mark, .icons-message, .icons-message_green, .icons-message_green_mini, .icons-phone, .icons-phone_green, .icons-phone_green_mini, .icons-portmone, .icons-search, .main__form-wrapper label[for="name"]::before, .main__form-wrapper label[for="phone"]::before, .main__form-wrapper label[for="email"]::before, .main__form-wrapper label[for="comment"]::before, .main__delivery-pros li::before, .contacts__phone::before, .contacts__email::before, .main__contacts .contacts__phone::before, .main__contacts .contacts__email::before, .main-menu__item_icon, .cart::before, .footer-info .contacts .contacts__phone:before, .footer-info .contacts .contacts__email::before {
   background-image: url('../img/icons-s01818eab9e.png');
   background-repeat: no-repeat;
@@ -263,7 +309,7 @@ footer {
 }
 
 .icons-doc {
-  background-position: 0 -396px;
+  background-position: 0 -144px;
   height: 84px;
   width: 84px;
 }
@@ -293,7 +339,7 @@ footer {
 }
 
 .icons-hand {
-  background-position: 0 -144px;
+  background-position: 0 -396px;
   height: 84px;
   width: 84px;
 }
@@ -305,13 +351,13 @@ footer {
 }
 
 .icons-message {
-  background-position: -22px -70px;
+  background-position: -47px -22px;
   height: 22px;
   width: 22px;
 }
 
 .icons-message_green {
-  background-position: -47px -22px;
+  background-position: -22px -70px;
   height: 22px;
   width: 22px;
 }
@@ -560,7 +606,7 @@ tfoot td::first-letter {
 }
 
 .icons-doc {
-  background-position: 0 -396px;
+  background-position: 0 -144px;
   height: 84px;
   width: 84px;
 }
@@ -590,7 +636,7 @@ tfoot td::first-letter {
 }
 
 .icons-hand {
-  background-position: 0 -144px;
+  background-position: 0 -396px;
   height: 84px;
   width: 84px;
 }
@@ -602,13 +648,13 @@ tfoot td::first-letter {
 }
 
 .icons-message {
-  background-position: -22px -70px;
+  background-position: -47px -22px;
   height: 22px;
   width: 22px;
 }
 
 .icons-message_green {
-  background-position: -47px -22px;
+  background-position: -22px -70px;
   height: 22px;
   width: 22px;
 }
@@ -699,7 +745,7 @@ tfoot td::first-letter {
   color: inherit;
 }
 .contacts__email::before {
-  background-position: -47px -22px;
+  background-position: -22px -70px;
   height: 22px;
   width: 22px;
   top: 0.35em;
@@ -708,6 +754,119 @@ tfoot td::first-letter {
 .contacts__email a {
   text-decoration: none;
   color: inherit;
+}
+
+.icons-sprite, .icons-acorn, .icons-car, .icons-cart, .icons-doc, .icons-form_comment, .icons-form_email, .icons-form_man, .icons-form_phone, .icons-hand, .icons-mark, .icons-message, .icons-message_green, .icons-message_green_mini, .icons-phone, .icons-phone_green, .icons-phone_green_mini, .icons-portmone, .icons-search, .main__form-wrapper label[for="name"]::before, .main__form-wrapper label[for="phone"]::before, .main__form-wrapper label[for="email"]::before, .main__form-wrapper label[for="comment"]::before, .main__delivery-pros li::before, .contacts__phone::before, .contacts__email::before, .main__contacts .contacts__phone::before, .main__contacts .contacts__email::before, .main-menu__item_icon, .cart::before, .footer-info .contacts .contacts__phone:before, .footer-info .contacts .contacts__email::before {
+  background-image: url('../img/icons-s01818eab9e.png');
+  background-repeat: no-repeat;
+}
+
+.icons-acorn {
+  background-position: -27px 0;
+  height: 18px;
+  width: 16px;
+}
+
+.icons-car {
+  background-position: 0 -228px;
+  height: 84px;
+  width: 84px;
+}
+
+.icons-cart {
+  background-position: 0 -92px;
+  height: 52px;
+  width: 51px;
+}
+
+.icons-doc {
+  background-position: 0 -144px;
+  height: 84px;
+  width: 84px;
+}
+
+.icons-form_comment {
+  background-position: -15px -44px;
+  height: 13px;
+  width: 18px;
+}
+
+.icons-form_email {
+  background-position: 0 -44px;
+  height: 9px;
+  width: 15px;
+}
+
+.icons-form_man {
+  background-position: -18px 0;
+  height: 22px;
+  width: 9px;
+}
+
+.icons-form_phone {
+  background-position: 0 -22px;
+  height: 9px;
+  width: 13px;
+}
+
+.icons-hand {
+  background-position: 0 -396px;
+  height: 84px;
+  width: 84px;
+}
+
+.icons-mark {
+  background-position: -13px -22px;
+  height: 16px;
+  width: 16px;
+}
+
+.icons-message {
+  background-position: -47px -22px;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-message_green {
+  background-position: -22px -70px;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-message_green_mini {
+  background-position: 0 0;
+  height: 18px;
+  width: 18px;
+}
+
+.icons-phone {
+  background-position: -43px 0;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-phone_green {
+  background-position: 0 -70px;
+  height: 22px;
+  width: 22px;
+}
+
+.icons-phone_green_mini {
+  background-position: -29px -22px;
+  height: 18px;
+  width: 18px;
+}
+
+.icons-portmone {
+  background-position: 0 -312px;
+  height: 84px;
+  width: 84px;
+}
+
+.icons-search {
+  background-position: -33px -44px;
+  height: 26px;
+  width: 35px;
 }
 
 .address {
@@ -731,10 +890,6 @@ h2 {
   margin: 0 0 11px 0;
 }
 h2::first-letter {
-  font-size: 1.2em;
-}
-
-.capital-letter {
   font-size: 1.2em;
 }
 
@@ -850,20 +1005,6 @@ h2::first-letter {
   text-decoration: underline;
 }
 
-.main__contacts-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  background-color: #f8e58b;
-  margin-bottom: 33px;
-  min-width: 590px;
-  box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.3);
-}
 .main__contacts-wrapper .contacts,
 .main__contacts-wrapper .address {
   width: 271px;
@@ -874,24 +1015,6 @@ h2::first-letter {
 }
 .main__contacts-wrapper b {
   font-weight: bolder;
-}
-.main__contacts-wrapper .main__contacts-wrapper_black-block,
-.main__contacts-wrapper .main__contacts-wrapper_green-block {
-  width: 50%;
-  height: 51px;
-  box-shadow: inset 0px 1px 3px 3px rgba(255, 255, 255, 0.3);
-}
-.main__contacts-wrapper .main__contacts-wrapper_black-block {
-  background-color: #2f2e2d;
-  position: relative;
-}
-.main__contacts-wrapper .main__contacts-wrapper_green-block {
-  background-color: #80bc38;
-}
-.main__contacts-wrapper img {
-  position: absolute;
-  bottom: 0;
-  left: calc(100% - 45px);
 }
 
 .main__contacts {
@@ -918,117 +1041,47 @@ h2::first-letter {
   font-size: 0.97em;
 }
 
-.icons-sprite, .icons-acorn, .icons-car, .icons-cart, .icons-doc, .icons-form_comment, .icons-form_email, .icons-form_man, .icons-form_phone, .icons-hand, .icons-mark, .icons-message, .icons-message_green, .icons-message_green_mini, .icons-phone, .icons-phone_green, .icons-phone_green_mini, .icons-portmone, .icons-search, .main__form-wrapper label[for="name"]::before, .main__form-wrapper label[for="phone"]::before, .main__form-wrapper label[for="email"]::before, .main__form-wrapper label[for="comment"]::before, .main__delivery-pros li::before, .contacts__phone::before, .contacts__email::before, .main__contacts .contacts__phone::before, .main__contacts .contacts__email::before, .main-menu__item_icon, .cart::before, .footer-info .contacts .contacts__phone:before, .footer-info .contacts .contacts__email::before {
-  background-image: url('../img/icons-s01818eab9e.png');
-  background-repeat: no-repeat;
+.main__contacts-wrapper_margin_45 {
+  margin-bottom: 45px;
 }
 
-.icons-acorn {
-  background-position: -27px 0;
-  height: 18px;
-  width: 16px;
+.main__contacts-wrapper_bg_white {
+  position: relative;
+  background-color: white;
+}
+.main__contacts-wrapper_bg_white .main__contacts-wrapper_yellow-block {
+  position: absolute;
+  background-color: #f8e58b;
+  width: 72px;
+  height: 100%;
+  left: calc(50% - 36px);
+  top: 0;
+  z-index: 45;
+  opacity: 0.7;
+}
+.main__contacts-wrapper_bg_white .main__contacts-wrapper_black-block {
+  z-index: 55;
+}
+.main__contacts-wrapper_bg_white .main__contacts-wrapper_green-block {
+  z-index: 54;
 }
 
-.icons-car {
-  background-position: 0 -228px;
-  height: 84px;
-  width: 84px;
+.main__leaf_bottom-24 {
+  bottom: -24px;
 }
 
-.icons-cart {
-  background-position: 0 -92px;
-  height: 52px;
-  width: 51px;
+.main__leaf_top_325 {
+  top: 325px;
 }
 
-.icons-doc {
-  background-position: 0 -396px;
-  height: 84px;
-  width: 84px;
+.main__about {
+  background: transparent;
+  margin: 0;
+  padding: 11px 17px 38px 25px;
+  z-index: 50;
 }
-
-.icons-form_comment {
-  background-position: -15px -44px;
-  height: 13px;
-  width: 18px;
-}
-
-.icons-form_email {
-  background-position: 0 -44px;
-  height: 9px;
-  width: 15px;
-}
-
-.icons-form_man {
-  background-position: -18px 0;
-  height: 22px;
-  width: 9px;
-}
-
-.icons-form_phone {
-  background-position: 0 -22px;
-  height: 9px;
-  width: 13px;
-}
-
-.icons-hand {
-  background-position: 0 -144px;
-  height: 84px;
-  width: 84px;
-}
-
-.icons-mark {
-  background-position: -13px -22px;
-  height: 16px;
-  width: 16px;
-}
-
-.icons-message {
-  background-position: -22px -70px;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-message_green {
-  background-position: -47px -22px;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-message_green_mini {
-  background-position: 0 0;
-  height: 18px;
-  width: 18px;
-}
-
-.icons-phone {
-  background-position: -43px 0;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-phone_green {
-  background-position: 0 -70px;
-  height: 22px;
-  width: 22px;
-}
-
-.icons-phone_green_mini {
-  background-position: -29px -22px;
-  height: 18px;
-  width: 18px;
-}
-
-.icons-portmone {
-  background-position: 0 -312px;
-  height: 84px;
-  width: 84px;
-}
-
-.icons-search {
-  background-position: -33px -44px;
-  height: 26px;
-  width: 35px;
+.main__about .main__about_color_green {
+  color: #80be36;
 }
 
 body {
@@ -1413,7 +1466,7 @@ section {
   padding: 33px 4% 64px 4%;
   background: url(../img/advantages-background.png) no-repeat;
   background-size: 100% 100%;
-  background-position-y: -4px;
+  background-position: 0 -4px;
   z-index: 50;
   opacity: .9999;
 }
@@ -1533,7 +1586,7 @@ section {
   width: 22px;
 }
 .footer-info .contacts .contacts__email::before {
-  background-position: -22px -70px;
+  background-position: -47px -22px;
   height: 22px;
   width: 22px;
   top: 0.25em;

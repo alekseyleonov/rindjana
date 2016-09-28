@@ -11,7 +11,7 @@
     <header>
       <nav class="header__item header-nav">
         <ul class="main-menu">
-          <li class="main-menu__item"><a href="about.html">О&#160;компании</a></li>
+          <li class="main-menu__item main-menu__item_active"><a>О&#160;компании</a></li>
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item">
             <a href="#">Продукция</a>
@@ -25,7 +25,7 @@
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item"><a href="#">Оплата и Доставка</a></li>
           <li class="main-menu__item_icon"></li>
-          <li class="main-menu__item main-menu__item_active"><a>Контакты</a></li>
+          <li class="main-menu__item"><a href="contacts.html">Контакты</a></li>
         </ul>
         <form class="site-search" action="index.html" method="post">
           <input type="search" name="site-search-field" value="" placeholder="Поиск...">
@@ -66,56 +66,23 @@
         </aside>
         <div class="main__contents">
           <ul class="bread-crumbs">
-            <li><a href="#"><span>П</span>родукция</a>&#160;/</li>
-            <li><a><strong><span>К</span>онтакты</strong></a></li>
+            <li><a href="index.html"><span>Г</span>лавная</a>&#160;/</li>
+            <li><a><strong><span>O</span>&#160;компании</strong></a></li>
           </ul>
-          <h2>Контакты</h2>
-          <div class="main__contacts-wrapper">
-            <div class="contacts main__contacts">
-              <ul>
-                <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-                <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
-              </ul>
-              <span>Ежедневно 24 часа в сутки</span>
-            </div>
-            <div class="address">
-              <b>Юридический адрес:</b><br>
-              <span class="address_margin">117525, Россия, г. Москва, ул.Днепропетровская, д.&#160;3, корп.&#160;3, кв.&#160;186</span>
-              <b>Адрес производства:</b><br>
-              <span>11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
-            </div>
+          <h2>О компании</h2>
+          <div class="main__contacts-wrapper main__contacts-wrapper_bg_white main__contacts-wrapper_margin_45">
+            <p class="main__about">
+              <span class="capital-letter">К</span>омпания &#171;<span class="main__about_color_green"><span class="capital-letter">Р</span>инджана</span>&#187; появилась на рынке <span class="capital-letter">Р</span>оссии и ближнего зарубежья более 5 лет назад. <span class="capital-letter">З</span>а эти годы она приобрела безупречную репутацию, став надежным поставщиком сухофруктов и орехов во все регионы <span class="capital-letter">Р</span>оссии и стран СНГ. Ассортимент вкусной и полезной продукции, насчитывает более двух тысяч наименований: орехи цельные, орехи в шоколадной глазури, сухофрукты, цукаты, орешки в белом шоколаде, кондитерские изделия и прочие полезные продукты. <span class="capital-letter">О</span>рехи и сухофрукты поставляются из <span class="capital-letter">У</span>збекистана, <span class="capital-letter">К</span>итая, <span class="capital-letter">И</span>рана, <span class="capital-letter">Г</span>ермании, <span class="capital-letter">Т</span>униса, <span class="capital-letter">Т</span>урции, <span class="capital-letter">А</span>фганистана и т. д.
+            </p>
             <div class="main__contacts-wrapper_black-block">
               <img src="img/rinjana-logo.png" alt="Логотип ООО Ринджана" height="90" width="90"/>
             </div>
             <div class="main__contacts-wrapper_green-block"></div>
-          </div>
-          <div class="main__form-wrapper">
-            <form class="order-form" action="index.html" method="post">
-              <strong>Оформить заказ</strong>
-              <label for="name">
-                <input id="name" type="text" name="name" value="" placeholder="Ваше имя">
-              </label>
-              <label for="phone">
-                <input id="phone" type="text" name="phone" value="" placeholder="Телефон">
-              </label>
-              <label for="email">
-                <input id="email" type="email" name="email" value="" placeholder="Email">
-              </label>
-              <label for="comment">
-                <textarea id="comment" name="comment" rows="8" cols="40" placeholder="Комментарий"></textarea>
-              </label>
-              <span class="order-form__button-wrapper"><button type="submit" name="submit">Отправить</button><span>После отправки с вами свяжется наш менеджер в течении 15 минут</span></span>
-            </form>
-            <ul class="main__delivery-pros">
-              <li><span class="capital-letter">Д</span>оставка товара по всей России и СНГ</li>
-              <li><span class="capital-letter">Н</span>ет ограничений на вес и сумму заказа, работаем от 1 кг</li>
-              <li><span class="capital-letter">О</span>тправляем товар в день оплаты</li>
-              <li><span class="capital-letter"><span>Б</span>есплатная доставка</span> до любой транспортной компании</li>
-            </ul>
+            <div class="main__contacts-wrapper_yellow-block"></div>
           </div>
         </div>
-        <img class="main__leaf_right_48" src="img/leaf-main.png" alt="Лист" width="63" height="61"/>
-        <img class="main__leaf_back" src="img/leaf-main-back.png" alt="Лист" width="63" height="61"/>
+        <img class="main__leaf_right_48 main__leaf_bottom-24" src="img/leaf-main.png" alt="Лист" width="63" height="61"/>
+        <img class="main__leaf_back main__leaf_top_325" src="img/leaf-main-back.png" alt="Лист" width="63" height="61"/>
       </section>
       <section class="main__advantages">
         <h2>Наши преимущества<span class="underline"></span></h2>
@@ -132,10 +99,10 @@
         <nav>
           <h3>Навигация</h3>
           <ul class="footer-info__nav">
-            <li><a href="#">О компании</a></li>
+            <li><a>О компании</a></li>
             <li><a href="#">Продукция</a></li>
             <li><a href="#">Оплата и Доставка</a></li>
-            <li><a>Контакты</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
         <div class="address address">
@@ -164,7 +131,6 @@
     </footer>
   </div>
   <script type="text/javascript" src="http://localhost:35729/livereload.js">
-
   </script>
 </body>
 </html>

@@ -9,13 +9,14 @@
 //
 // @import 'base/reset';
 // @import 'base/typography';
+@import "base/capital-letter";
 //
 // @import 'layout/navigation';
 // @import 'layout/grid';
 // @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
-// @import 'layout/sidebar';
+@import 'layout/contacts-wrapper';
 @import 'layout/forms';
 @import "layout/table";
 //
@@ -27,23 +28,16 @@
 @import 'components/icons';
 @import 'components/address';
 @import 'components/h2';
-@import "components/capital-letter";
 @import "components/font";
 
 @import 'pages/cart';
 @import 'pages/contacts-page';
+@import "pages/about";
 //
 // @import 'themes/theme';
 // @import 'themes/admin';
 //
 // @import "others/shame"; //файл позора
-
-
-@import "compass/utilities/sprites";
-$icons-layout: smart;
-@import "icons/*.png";
-$icons-sprite-dimensions: true;
-@include all-icons-sprites;
 
 body{
   font-family: Verdana, "Geneva CY", "DejaVu Sans", sans-serif;
@@ -410,7 +404,7 @@ section{
   padding: 33px 4% 64px 4%;
   background: url(../img/advantages-background.png) no-repeat;
   background-size: 100% 100%;
-  background-position-y: -4px;
+  background-position: 0 -4px;
   z-index: 50;
   opacity: .9999;
   h2{
