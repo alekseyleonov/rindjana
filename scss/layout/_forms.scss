@@ -1,8 +1,8 @@
-@import "compass/utilities/sprites";
-$icons-layout: smart;
-@import "icons/*.png";
-$icons-sprite-dimensions: true;
-@include all-icons-sprites;
+// @import "components/icons";
+// @import "compass/utilities/sprites";
+// $icons-layout: smart;
+// @import "icons/*.png";
+// $icons-sprite-dimensions: true;
 
 .main__form-wrapper{
   display: -webkit-box;

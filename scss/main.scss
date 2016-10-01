@@ -3,6 +3,7 @@
 // @import 'vendors/jquery-ui';
 //
 @import 'utils/variables';
+@import "utils/icons-sprite";
 // @import 'utils/functions';
 // @import 'utils/mixins';
 // @import 'utils/placeholders';
@@ -16,7 +17,7 @@
 // @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
-@import 'layout/contacts-wrapper';
+@import 'layout/info-box';
 @import 'layout/forms';
 @import "layout/table";
 //
@@ -25,7 +26,6 @@
 // @import 'components/cover';
 // @import 'components/dropdown';
 @import 'components/contacts';
-@import 'components/icons';
 @import 'components/address';
 @import 'components/h2';
 @import "components/font";
@@ -33,6 +33,7 @@
 @import 'pages/cart';
 @import 'pages/contacts-page';
 @import "pages/about";
+@import "pages/pay-and-delivery";
 //
 // @import 'themes/theme';
 // @import 'themes/admin';

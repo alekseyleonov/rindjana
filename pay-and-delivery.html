@@ -4,15 +4,15 @@
   <meta charset="UTF-8" >
   <!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
   <title>Ринджана - Контакты</title>
-  <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
   <link rel="icon" type="image/png" href="img/rinjana-logo.png">
+  <link rel="stylesheet" href="css/main.css" media="screen" title="no title">
 </head>
 <body>
   <div class="container">
     <header>
       <nav class="header__item header-nav">
         <ul class="main-menu">
-          <li class="main-menu__item main-menu__item_active"><a>О&#160;компании</a></li>
+          <li class="main-menu__item"><a href="about.html">О&#160;компании</a></li>
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item">
             <a href="#">Продукция</a>
@@ -24,7 +24,7 @@
             </ul>
           </li>
           <li class="main-menu__item_icon"></li>
-          <li class="main-menu__item"><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
+          <li class="main-menu__item main-menu__item_active"><a>Оплата и Доставка</a></li>
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item"><a href="contacts.html">Контакты</a></li>
         </ul>
@@ -59,31 +59,61 @@
         <aside class="main__sidebar">
           <h3>Продукция</h3>
           <ul>
-            <li><a href="#"><span>О</span>рехи</a><img src="img/nuts-main-photo.png" alt="Орехи" width="43" height="25"/></li>
-            <li><a href="#"><span>С</span>ухофрукты</a><img src="img/fruits-main-photo.png" alt="Сухофрукты" width="35" height="22"/></li>
-            <li><a href="#"><span>Ц</span>укаты</a><img src="img/candied-main-photo.png" alt="Цукаты" width="49" height="23"/></li>
-            <li><a href="#"><span>С</span>неки</a><img src="img/snacks-main-photo.png" alt="Снеки" width="38" height="19"/></li>
+            <li><a class="sidebar-product-link" href="#"><span>О</span>рехи</a><img src="img/nuts-main-photo.png" alt="Орехи" width="43" height="25"/></li>
+            <li><a class="sidebar-product-link" href="#"><span>С</span>ухофрукты</a><img src="img/fruits-main-photo.png" alt="Сухофрукты" width="35" height="22"/></li>
+            <li><a class="sidebar-product-link" href="#"><span>Ц</span>укаты</a><img src="img/candied-main-photo.png" alt="Цукаты" width="49" height="23"/></li>
+            <li><a class="sidebar-product-link" href="#"><span>С</span>неки</a><img src="img/snacks-main-photo.png" alt="Снеки" width="38" height="19"/></li>
           </ul>
         </aside>
         <div class="main__contents">
           <ul class="bread-crumbs">
-            <li><a href="index.html"><span>Г</span>лавная</a>&#160;/</li>
-            <li><a><strong><span>O</span>&#160;компании</strong></a></li>
+            <li><a href="#"><span>Г</span>лавная</a>&#160;/</li>
+            <li><a><strong><span>О</span>плата и доставка</strong></a></li>
           </ul>
-          <h2>О компании</h2>
-          <div class="main__info-box main__info-box_bg_white main__info-box_margin_45">
-            <p class="main__about">
-              <span class="capital-letter">К</span>омпания &#171;<span class="main__about_color_green"><span class="capital-letter">Р</span>инджана</span>&#187; появилась на рынке <span class="capital-letter">Р</span>оссии и ближнего зарубежья более 5 лет назад. <span class="capital-letter">З</span>а эти годы она приобрела безупречную репутацию, став надежным поставщиком сухофруктов и орехов во все регионы <span class="capital-letter">Р</span>оссии и стран СНГ. Ассортимент вкусной и полезной продукции, насчитывает более двух тысяч наименований: орехи цельные, орехи в шоколадной глазури, сухофрукты, цукаты, орешки в белом шоколаде, кондитерские изделия и прочие полезные продукты. <span class="capital-letter">О</span>рехи и сухофрукты поставляются из <span class="capital-letter">У</span>збекистана, <span class="capital-letter">К</span>итая, <span class="capital-letter">И</span>рана, <span class="capital-letter">Г</span>ермании, <span class="capital-letter">Т</span>униса, <span class="capital-letter">Т</span>урции, <span class="capital-letter">А</span>фганистана и т. д.
-            </p>
+          <h2>Оплата и доставка</h2>
+          <div class="main__info-box main__info-box_margin_45">
+            <div class="main__payment">
+              <strong><span><span class="capital-letter">О</span>плата</span></strong>
+              <ul>
+                <li class="">
+                  <b><span class="capital-letter">Н</span>аличный расчет</b>
+                  <p><span class="capital-letter">У</span>словия расчета за наличные</p>
+                </li>
+                <li class="">
+                  <b><span class="capital-letter">Б</span>езналичный расчет</b>
+                  <p><span class="capital-letter">У</span>словия расчета за наличные</p>
+                </li>
+              </ul>
+            </div>
+            <div class="main__delivery">
+              <strong><span class="main__delivery_header-padding"><span class="capital-letter">Д</span>оставка</span></strong>
+              <ul>
+                <li>
+                  <b><span class="capital-letter">П</span>о <span class="capital-letter">М</span>оскве:</b>
+                  <p><span class="capital-letter">У</span>словия доставки</p>
+                </li>
+                <li>
+                  <b><span class="capital-letter">П</span>о <span class="capital-letter">РФ</span>:</b>
+                  <p><span class="capital-letter">У</span>словия доставки</p>
+                </li>
+                <li>
+                  <b><span class="capital-letter">Б</span>есплатная Доставка:</b>
+                  <p><span class="capital-letter">У</span>словия доставки</p>
+                </li>
+              </ul>
+              <p>
+                <span class="capital-letter">С</span>амовывоз со складов по адресу:<br>
+                11123, <span class="capital-letter">Р</span>оссия, г.&#160;<span class="capital-letter">М</span>осква, <span class="capital-letter">Ш</span>оссе <span class="capital-letter">Э</span>нтузиастов, д.&#160;56, строение&#160;11
+              </p>
+            </div>
             <div class="main__info-box_black-block">
               <img src="img/rinjana-logo.png" alt="Логотип ООО Ринджана" height="90" width="90"/>
             </div>
             <div class="main__info-box_green-block"></div>
-            <div class="main__info-box_yellow-block"></div>
           </div>
         </div>
         <img class="main__leaf_right_48 main__leaf_bottom-24" src="img/leaf-main.png" alt="Лист" width="63" height="61"/>
-        <img class="main__leaf_back main__leaf_top_325" src="img/leaf-main-back.png" alt="Лист" width="63" height="61"/>
+        <img class="main__leaf_back" src="img/leaf-main-back.png" alt="Лист" width="63" height="61"/>
       </section>
       <section class="main__advantages">
         <h2>Наши преимущества<span class="underline"></span></h2>
@@ -100,9 +130,9 @@
         <nav>
           <h3>Навигация</h3>
           <ul class="footer-info__nav">
-            <li><a>О компании</a></li>
+            <li><a href="about.html">О компании</a></li>
             <li><a href="#">Продукция</a></li>
-            <li><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
+            <li><a>Оплата и Доставка</a></li>
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
@@ -132,6 +162,7 @@
     </footer>
   </div>
   <script type="text/javascript" src="http://localhost:35729/livereload.js">
+
   </script>
 </body>
 </html>

@@ -1,10 +1,10 @@
-.main__contacts-wrapper_margin_45{
+.main__info-box_margin_45{
   margin-bottom: 45px;
 }
-.main__contacts-wrapper_bg_white{
+.main__info-box_bg_white{
   position: relative;
   background-color: white;
-  .main__contacts-wrapper_yellow-block{
+  .main__info-box_yellow-block{
     position: absolute;
     background-color: $color_yellow;
     width: 72px;
@@ -14,10 +14,10 @@
     z-index: 45;
     opacity: 0.7;
   }
-  .main__contacts-wrapper_black-block{
+  .main__info-box_black-block{
     z-index: 55;
   }
-  .main__contacts-wrapper_green-block{
+  .main__info-box_green-block{
     z-index: 54;
   }
 }

@@ -1,4 +1,4 @@
-.main__contacts-wrapper{
+.main__info-box{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -11,17 +11,19 @@
   margin-bottom: 33px;
   min-width: 590px;
   box-shadow: $shadow_gray;
-  .main__contacts-wrapper_black-block,
-  .main__contacts-wrapper_green-block{
+  z-index: 10;
+  position: relative;
+  .main__info-box_black-block,
+  .main__info-box_green-block{
     width: 50%;
     height: 51px;
     box-shadow: $shadow_inset_white;
   }
-  .main__contacts-wrapper_black-block{
+  .main__info-box_black-block{
     background-color: #2f2e2d;
     position: relative;
   }
-  .main__contacts-wrapper_green-block{
+  .main__info-box_green-block{
     background-color: #80bc38;
   }
   img{
