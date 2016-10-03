@@ -1,0 +1,17 @@
+.cart-button{
+  border: none;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 12px;
+  line-height: 2.2;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0 21px;
+  background: -webkit-linear-gradient(#c4e869, #82bf39);
+  background: linear-gradient(#c4e869, #82bf39);
+  cursor: pointer;
+  &:active{
+    background: -webkit-linear-gradient(#82bf39, #c4e869);
+    background: linear-gradient(#82bf39, #c4e869);
+  }
+}

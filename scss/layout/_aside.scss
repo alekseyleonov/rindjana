@@ -1,0 +1,79 @@
+aside{
+  min-width: 250px;
+  width: 50%;
+  h3{
+    background-color: $color_dark-elem-default;
+    // font-family: 'Calibri';
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 0;
+    overflow: auto;
+    padding: 6px 23px 15px 23px;
+    font-size: 14px;
+    width: 187px;
+    letter-spacing: 1px;
+    &::first-letter{
+      font-size: 1.2em;
+    }
+  }
+  .sidebar-menu{
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 233px;
+    box-shadow: $shadow_gray;
+  }
+  .sidebar-menu__item{
+    margin-bottom: 12px;
+  }
+  .sidebar-menu__item-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Calibri Bolder';
+    letter-spacing: 1px;
+    line-height: 2.7;
+    color: inherit;
+    padding: 0 12px 0 23px;
+    &:hover{
+      background: linear-gradient(#c4e869, #82bf39);
+    }
+  }
+  .main__sidebar_active-menu-item{
+    background: linear-gradient(#c4e869, #82bf39);
+  }
+  img[src="img/nuts-main-photo.png"]{
+    margin-right: 3px;
+  }
+  img[src="img/fruits-main-photo.png"]{
+    margin-right: 7px;
+  }
+  img[src="img/snacks-main-photo.png"]{
+    margin-right: 7px;
+  }
+  .sidebar-menu__submenu{
+    list-style: none;
+    margin: 0 0 0 23px;
+    padding: 0;
+  }
+  .sidebar-menu__submenu-link{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-family: 'Calibri Bolder';
+    letter-spacing: 1px;
+    line-height: 2;
+    color: inherit;
+    padding: 0 10px 0 23px;
+    &:hover{
+      background-color: $color_neon-green;
+      box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.3);
+    }
+  }
+}

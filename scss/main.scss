@@ -13,18 +13,21 @@
 @import "base/capital-letter";
 //
 // @import 'layout/navigation';
-// @import 'layout/grid';
+@import 'layout/aside';
 // @import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
 @import 'layout/info-box';
 @import 'layout/forms';
 @import "layout/table";
+@import "layout/products-list";
+@import "layout/product-item";
 //
 // @import 'components/buttons';
 // @import 'components/carousel';
 // @import 'components/cover';
-// @import 'components/dropdown';
+@import 'components/link-button';
+@import 'components/cart-button';
 @import 'components/contacts';
 @import 'components/address';
 @import 'components/h2';
@@ -34,6 +37,7 @@
 @import 'pages/contacts-page';
 @import "pages/about";
 @import "pages/pay-and-delivery";
+@import "pages/products-nuts";
 //
 // @import 'themes/theme';
 // @import 'themes/admin';
@@ -177,17 +181,6 @@ header{
   padding: 20px 4% 12px 4%;
   font-family: 'Malgun Gothic Regular';
   background: url(../img/leaf-header.png) no-repeat 38px -8px;
-}
-
-.link-button{
-  color: white;
-  font-size: 12px;
-  line-height: 2.2;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 0 8px 1px 8px;
-  background: -webkit-linear-gradient(#fae177, #dbbe40);
-  background: linear-gradient(#fae177, #dbbe40);
 }
 
 .logo{
@@ -562,61 +555,43 @@ section{
   }
 }
 
-aside{
-  min-width: 250px;
-  width: 50%;
-  h3{
-    background-color: #2f2e2d;
-    // font-family: 'Calibri';
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: normal;
-    margin: 0;
-    overflow: auto;
-    padding: 6px 23px 15px 23px;
-    font-size: 14px;
-    width: 187px;
-    letter-spacing: 1px;
-    &::first-letter{
-      font-size: 1.2em;
-    }
-  }
-  ul{
-    background-color: #ffffff;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    width: 233px;
-    box-shadow: $shadow_gray;
-  }
-  li{
-    padding: 0 12px 12px 23px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  a{
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-    font-family: 'Calibri Bolder';
-    letter-spacing: 1px;
-    line-height: 2.7;
-    color: inherit;
-    span{
-      font-size: 1.2em;
-    }
-  }
-  img[src="img/nuts-main-photo.png"]{
-    margin-right: 3px;
-  }
-  img[src="img/fruits-main-photo.png"]{
-    margin-right: 7px;
-  }
-  img[src="img/snacks-main-photo.png"]{
-    margin-right: 7px;
-  }
-}
+
+//   ul{
+//     background-color: #ffffff;
+//     margin: 0;
+//     padding: 0;
+//     list-style: none;
+//     width: 233px;
+//     box-shadow: $shadow_gray;
+//   }
+//   li{
+//     padding: 0 12px 12px 23px;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//   }
+//   a{
+//     text-decoration: none;
+//     text-transform: uppercase;
+//     font-size: 15px;
+//     font-family: 'Calibri Bolder';
+//     letter-spacing: 1px;
+//     line-height: 2.7;
+//     color: inherit;
+//     span{
+//       font-size: 1.2em;
+//     }
+//   }
+//   img[src="img/nuts-main-photo.png"]{
+//     margin-right: 3px;
+//   }
+//   img[src="img/fruits-main-photo.png"]{
+//     margin-right: 7px;
+//   }
+//   img[src="img/snacks-main-photo.png"]{
+//     margin-right: 7px;
+//   }
+// }
 .main__contents{
   width: 95%;
 }
