@@ -1,2 +1,6 @@
 *.rb
 .sass-cache
+gulpfile.js
+package.json
+.idea
+node_modules
