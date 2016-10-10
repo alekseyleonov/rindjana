@@ -373,13 +373,17 @@ aside .sidebar-menu__submenu-link {
   font-size: 0.8em;
   font-family: 'Calibri Bolder';
   letter-spacing: 1px;
-  line-height: 2;
+  line-height: 1.2;
   color: inherit;
-  padding: 0 10px 0 23px;
+  padding: 7px 10px 5px 23px;
 }
 aside .sidebar-menu__submenu-link:hover {
   background-color: #80be36;
   box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.3);
+}
+
+.main-menu__item_hover-menu .active-link {
+  text-decoration: none;
 }
 
 .main__content {
@@ -411,6 +415,7 @@ aside .sidebar-menu__submenu-link:hover {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  background-color: #e7e9ea;
   background: url(../img/main-background_contacts.jpg);
   background-repeat: repeat-y;
   background-position-x: 60%;
@@ -774,6 +779,7 @@ tfoot td::first-letter {
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 11px;
+  text-align: center;
 }
 
 .product-item__price-item {
@@ -1182,8 +1188,14 @@ h2::first-letter {
   bottom: -24px;
 }
 
-.main-menu__item_hover-menu .active-link {
-  text-decoration: none;
+.main__leaf_620-230 {
+  top: 620px;
+  left: 230px;
+}
+
+.main__leaf_680-230 {
+  top: 680px;
+  left: 230px;
 }
 
 .main__leaf_620-230 {
@@ -1191,12 +1203,16 @@ h2::first-letter {
   left: 230px;
 }
 
-.main-menu__item_hover-menu .active-link {
-  text-decoration: none;
+aside .sidebar-menu__submenu_padding-bottom_15 {
+  padding: 0 0 15px 0;
 }
 
-.main__leaf_680-230 {
-  top: 680px;
+.product-item__product-name-link_font-size_07 {
+  font-size: 0.7em;
+}
+
+.main__leaf_720-230 {
+  top: 720px;
   left: 230px;
 }
 

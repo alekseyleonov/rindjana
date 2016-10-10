@@ -14,7 +14,7 @@
 //
 // @import 'layout/navigation';
 @import 'layout/aside';
-// @import 'layout/header';
+@import 'layout/header';
 @import 'layout/main';
 @import 'layout/footer';
 @import 'layout/info-box';
@@ -39,6 +39,8 @@
 @import "pages/pay-and-delivery";
 @import "pages/products-nuts";
 @import "pages/products-fruits";
+@import "pages/products-snacks";
+@import "pages/products-candied";
 //
 // @import 'themes/theme';
 // @import 'themes/admin';
