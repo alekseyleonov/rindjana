@@ -74,6 +74,13 @@ aside{
     &:hover{
       background-color: $color_neon-green;
       box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.3);
+      z-index: 70;
     }
+  }
+  .sidebar-menu__submenu-link_active{
+    background-color: $color_neon-green;
+    box-shadow: 0px 0px 25px 0px rgba(255, 255, 255, 0.3);
+    z-index: 70;
+    position: relative;
   }
 }

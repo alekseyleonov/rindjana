@@ -38,7 +38,7 @@
 }
 .cart-table__qnt{
   font-size: 12px;
-  border: 2px solid $color_neon-green;
+  border: 2px solid $color_neon-green_text;
   border-radius: 2px;
   padding: 3px 12px;
   margin: 0 5px;
@@ -48,7 +48,7 @@
 .cart-table__del-btn{
   font-size: 16px;
   font-weight: bold;
-  color: $color_neon-green;
+  color: $color_neon-green_text;
   cursor: pointer;
 }
 .cart-table__reset-btn{

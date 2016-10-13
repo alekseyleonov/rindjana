@@ -9,8 +9,77 @@ footer{
 }
 
 .footer-info{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-bottom: 20px;
   .address{
     position: relative;
     left: 6vh;
+  }
+  h3{
+    margin: 0 0 14px 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 14px;
+    &:first-letter{
+      font-size: 1.3em;
+    }
+  }
+  .footer-info__nav{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    font-size: 13px;
+    line-height: 2.28;
+    min-width: 130px;
+  }
+  a{
+    color: #ffffff;
+  }
+  .contacts{
+    margin: 0;
+    font-size: 13px;
+    ul{
+      margin: 0 0 10px 0;
+      font-size: 16px;
+    }
+    .contacts__phone:before{
+      @include icons-sprite(phone);
+    }
+    .contacts__email::before{
+      @include icons-sprite(message);
+      top: 0.25em;
+    }
+  }
+}
+
+.footer-logo{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  .organisation-name{
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 39px 8px 0 0;
+  }
+  .footer-logo__image-decor{
+    position: absolute;
+    bottom: 0;
+    left: 45.4%;
+  }
+}
+
+.footer-logo__logo{
+  margin-left: 5px;
+  padding: 6px 0 9px 0;
+  span{
+    font-size: 16px;
+  }
+  .footer-logo__logo_width_nuts{
+    width: 65px;
+  }
+  .footer-logo__logo_width_fruits{
+    width: 120px;
   }
 }

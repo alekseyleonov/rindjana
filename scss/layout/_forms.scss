@@ -85,14 +85,17 @@
     font-size: 12px;
     color: #ffffff;
     text-transform: uppercase;
-    background: -webkit-linear-gradient(#c4e868, #82bf37);
     background: linear-gradient(#c4e868, #82bf37);
     padding: 0 14px;
     margin-right: 6px;
     cursor: pointer;
+    box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.15);
     &:hover{
-      background: -webkit-linear-gradient(#afd05c, #6fa32f);
-      background: linear-gradient(#afd05c, #6fa32f);
+      box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.25);
+    }
+    &:active{
+      background: linear-gradient(#82bf39, #c4e869);
+      box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.15);
     }
   }
 }

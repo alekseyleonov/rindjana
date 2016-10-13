@@ -15,7 +15,7 @@
           <li class="main-menu__item"><a href="about.html">О&#160;компании</a></li>
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item">
-            <a href="#">Продукция</a>
+            <a href="index.html">Продукция</a>
             <ul class="main-menu__item_hover-menu">
               <li><a href="products-nuts.html">Орехи</a></li>
               <li><a href="products-fruits.html">Сухофрукты</a></li>
@@ -26,7 +26,7 @@
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item"><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
           <li class="main-menu__item_icon"></li>
-          <li class="main-menu__item main-menu__item_active"><a href="contacts.html" >Контакты</a></li>
+          <li class="main-menu__item"><a href="contacts.html" >Контакты</a></li>
         </ul>
         <form class="site-search" action="index.html" method="post">
           <input type="search" name="site-search-field" value="" placeholder="Поиск...">
@@ -34,10 +34,10 @@
         </form>
       </nav>
       <div class="header__item header-main">
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           <span>Ежедневно 24 часа в сутки</span>
           <a class="contacts__call-req link-button" href="#">обратный звонок</a>
@@ -101,7 +101,7 @@
           <h2>Корзина</h2>
           <table class="cart-table">
             <thead>
-              <tr>
+              <tr class="cart-table__header-row">
                 <th>Наименование</th>
                 <th class="cart-table_cell-padding-left_27">Цена</th>
                 <th>Количество</th>
@@ -118,21 +118,21 @@
               <tr>
                 <td class="table-col-1">Грецкий орех очищенный</td>
                 <td class="cart-table_cell-padding-left_27"><span class="cart-table__price-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
-                <td class="cart-table_cell-align_center"><span class="cart-table__minus-btn">-</span><span class="cart-table__qnt">2</span><span class="cart-table__plus-btn">+</span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__minus-btn">&#8722;</span><span class="cart-table__qnt">2</span><span class="cart-table__plus-btn">+</span></td>
                 <td class="cart-table_cell-align_center"><span class="cart-table__summ-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
                 <td class="cart-table_cell-align_center"><span class="cart-table__del-btn">X</span></td>
               </tr>
               <tr>
                 <td class="table-col-1">Миндаль жареный</td>
                 <td class="cart-table_cell-padding-left_27"><span class="cart-table__price-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
-                <td class="cart-table_cell-align_center"><span class="cart-table__minus-btn">-</span><span class="cart-table__qnt">1</span><span class="cart-table__plus-btn">+</span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__minus-btn">&#8722;</span><span class="cart-table__qnt">1</span><span class="cart-table__plus-btn">+</span></td>
                 <td class="cart-table_cell-align_center"><span class="cart-table__summ-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
                 <td class="cart-table_cell-align_center"><span class="cart-table__del-btn">X</span></td>
               </tr>
               <tr>
                 <td class="table-col-1">Сушёная вишня</td>
                 <td class="cart-table_cell-padding-left_27"><span class="cart-table__price-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
-                <td class="cart-table_cell-align_center"><span class="cart-table__minus-btn">-</span><span class="cart-table__qnt">1</span><span class="cart-table__plus-btn">+</span></td>
+                <td class="cart-table_cell-align_center"><span class="cart-table__minus-btn">&#8722;</span><span class="cart-table__qnt">1</span><span class="cart-table__plus-btn">+</span></td>
                 <td class="cart-table_cell-align_center"><span class="cart-table__summ-cell">114<span class="cart-table__cy">&#160;руб</span></span></td>
                 <td class="cart-table_cell-align_center"><span class="cart-table__del-btn">X</span></td>
               </tr>
@@ -182,21 +182,21 @@
           <h3>Навигация</h3>
           <ul class="footer-info__nav">
             <li><a href="about.html">О компании</a></li>
-            <li><a href="#">Продукция</a></li>
+            <li><a href="index.html">Продукция</a></li>
             <li><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
-            <li><a>Контакты</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
-        <div class="address address">
+        <div class="address" itemscope itemtype="http://schema.org/Person">
           <b>Юридический адрес:</b><br>
-          <span class="address_margin">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
+          <span class="address_margin" itemprop="address">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
           <b>Адрес производства:</b><br>
-          <span>11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
+          <span itemprop="address">11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
         </div>
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           Ежедневно 24 часа в сутки<br>
         </div>
@@ -212,7 +212,5 @@
       </div>
     </footer>
   </div>
-  <script type="text/javascript" src="http://localhost:35729/livereload.js">
-  </script>
 </body>
 </html>

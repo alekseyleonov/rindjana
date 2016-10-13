@@ -1,0 +1,19 @@
+.bread-crumbs{
+  padding: 0;
+  margin: 0 0 24px 0;
+  list-style: none;
+  line-height: 0.7;
+  a{
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 1px;
+    span{
+      font-size: 1.2em;
+    }
+  }
+  li{
+    display: inline-block;
+  }
+}

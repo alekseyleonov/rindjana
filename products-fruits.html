@@ -15,7 +15,7 @@
           <li class="main-menu__item"><a href="about.html">О&#160;компании</a></li>
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item">
-            <a href="#">Продукция</a>
+            <a href="index.html">Продукция</a>
             <ul class="main-menu__item_hover-menu">
               <li><a href="products-nuts.html">Орехи</a></li>
               <li><a class="active-link">Сухофрукты</a></li>
@@ -26,7 +26,7 @@
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item"><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
           <li class="main-menu__item_icon"></li>
-          <li class="main-menu__item main-menu__item_active"><a>Контакты</a></li>
+          <li class="main-menu__item"><a href="contacts.html">Контакты</a></li>
         </ul>
         <form class="site-search" action="index.html" method="post">
           <input type="search" name="site-search-field" value="" placeholder="Поиск...">
@@ -34,10 +34,10 @@
         </form>
       </nav>
       <div class="header__item header-main">
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           <span>Ежедневно 24 часа в сутки</span>
           <a class="contacts__call-req link-button" href="#">обратный звонок</a>
@@ -75,18 +75,18 @@
                 <img src="img/fruits-main-photo.png" alt="Сухофрукты" width="35" height="22"/>
               </a>
               <ul class="sidebar-menu__submenu">
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Ч</span>ернослив</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">К</span>урага</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">И</span>зюм</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Б</span>ананы</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">И</span>нжир</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Ф</span>иники</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Я</span>блоки сушеные</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">П</span>ерсик сушеный</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Т</span>утовник сушеный</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">В</span>ишня сушеная</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Г</span>руша сушеная</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Ч</span>ерешня сушеная</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_prunes.html"><span class="capital-letter">Ч</span>ернослив</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_kuraga.html"><span class="capital-letter">К</span>урага</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_raisin.html"><span class="capital-letter">И</span>зюм</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_banan.html"><span class="capital-letter">Б</span>ананы</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_figs.html"><span class="capital-letter">И</span>нжир</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_dates.html"><span class="capital-letter">Ф</span>иники</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_appless.html"><span class="capital-letter">Я</span>блоки сушеные</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_peach_d.html"><span class="capital-letter">П</span>ерсик сушеный</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_mulberry.html"><span class="capital-letter">Т</span>утовник сушеный</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_cherry_d.html"><span class="capital-letter">В</span>ишня сушеная</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_pear_d.html"><span class="capital-letter">Г</span>руша сушеная</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-fruits_cherries_d.html"><span class="capital-letter">Ч</span>ерешня сушеная</a></li>
               </ul>
             </li>
             <li class="sidebar-menu__item">
@@ -98,7 +98,7 @@
               </a>
             </li>
             <li class="sidebar-menu__item">
-              <a class="sidebar-menu__item-link" href="#">
+              <a class="sidebar-menu__item-link" href="products-snacks.html">
                 <span>
                   <span class="capital-letter">С</span>неки
                 </span>
@@ -107,151 +107,152 @@
             </li>
           </ul>
         </aside>
-        <div class="main__contents">
-          <ul class="bread-crumbs">
-            <li><a href="index.html"><span>Г</span>лавная</a>&#160;/</li>
-            <li><a><span>П</span>родукция</a>&#160;/</li>
-            <li><a><strong><span>C</span>ухофрукты</strong></a></li>
-          </ul>
-          <ul class="main__products-list">
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/prunes.png" alt="Чернослив" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">Ч</span>ернослив</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/kuraga.png" alt="Курага" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">К</span>урага</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/raisins.png" alt="Изюм" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">И</span>зюм</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/banan.png" alt="Банан" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">Б</span>анан</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/figs.png" alt="Инжир" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">И</span>нжир</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/date-fruit.png" alt="Финики" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">Ф</span>иники</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/apples.png" alt="Яблоки сушеные" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">Я</span>блоки сушеные</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/peach.png" alt="Персик сушеный" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">П</span>ерсик сушеный</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/tutovik.png" alt="Тутовник сушеный" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">Т</span>утовник сушеный</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/cherry.png" alt="Вишня сушеная" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">В</span>ишня сушеная</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/pear.png" alt="Груша сушеная" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">Г</span>руша сушеная</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/cherries.png" alt="Черешня сушеная" />
-                </div>
-                <a class="product-item__product-name-link" href="#"><span class="capital-letter">Ч</span>ерешная сушеная</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item product-item_opasity_0"></li>
-            <li class="product-item product-item_opasity_0"></li>
-            <li class="product-item product-item_opasity_0"></li>
-          </ul>
-        <img class="main__leaf_right_48" src="img/leaf-main.png" alt="Лист" width="63" height="61"/>
-        <img class="main__leaf_back main__leaf_680-230" src="img/leaf-main-back.png" alt="Лист" width="63" height="61"/>
+          <div class="main__contents">
+              <ul class="bread-crumbs">
+                  <li><a href="index.html"><span>Г</span>лавная</a>&#160;/</li>
+                  <li><a><span>П</span>родукция</a>&#160;/</li>
+                  <li><a><strong><span>C</span>ухофрукты</strong></a></li>
+              </ul>
+              <ul class="main__products-list">
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/prunes.png" alt="Чернослив" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_prunes.html"><span class="capital-letter">Ч</span>ернослив</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_prunes.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/kuraga.png" alt="Курага" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_kuraga.html"><span class="capital-letter">К</span>урага</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_kuraga.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/raisins.png" alt="Изюм" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_raisin.html"><span class="capital-letter">И</span>зюм</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_raisin.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/banan.png" alt="Банан" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_banan.html"><span class="capital-letter">Б</span>анан</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_banan.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/figs.png" alt="Инжир" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_figs.html"><span class="capital-letter">И</span>нжир</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_figs.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/date-fruit.png" alt="Финики" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_dates.html"><span class="capital-letter">Ф</span>иники</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_dates.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/apples.png" alt="Яблоки сушеные" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_appless.html"><span class="capital-letter">Я</span>блоки сушеные</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_appless.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/peach.png" alt="Персик сушеный" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_peach_d.html"><span class="capital-letter">П</span>ерсик сушеный</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_peach_d.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/tutovik.png" alt="Тутовник сушеный" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_mulberry.html"><span class="capital-letter">Т</span>утовник сушеный</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_mulberry.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/cherry.png" alt="Вишня сушеная" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_cherry_d.html"><span class="capital-letter">В</span>ишня сушеная</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_cherry_d.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/pear.png" alt="Груша сушеная" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_pear_d.html"><span class="capital-letter">Г</span>руша сушеная</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_pear_d.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/cherries.png" alt="Черешня сушеная" />
+                          </div>
+                          <a class="product-item__product-name-link" href="products-fruits_cherries_d.html"><span class="capital-letter">Ч</span>ерешная сушеная</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-fruits_cherries_d.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item product-item_opasity_0"></li>
+                  <li class="product-item product-item_opasity_0"></li>
+                  <li class="product-item product-item_opasity_0"></li>
+              </ul>
+              <img class="main__leaf_right_48" src="img/leaf-main.png" alt="Лист" width="63" height="61"/>
+              <img class="main__leaf_back main__leaf_680-230" src="img/leaf-main-back.png" alt="Лист" width="63" height="61"/>
+          </div>
       </section>
       <section class="main__advantages">
         <h2>Наши преимущества<span class="underline"></span></h2>
@@ -269,21 +270,21 @@
           <h3>Навигация</h3>
           <ul class="footer-info__nav">
             <li><a href="about.html">О компании</a></li>
-            <li><a href="#">Продукция</a></li>
+            <li><a href="index.html">Продукция</a></li>
             <li><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
-        <div class="address address">
+        <div class="address" itemscope itemtype="http://schema.org/Person">
           <b>Юридический адрес:</b><br>
-          <span class="address_margin">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
+          <span class="address_margin" itemprop="address">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
           <b>Адрес производства:</b><br>
-          <span>11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
+          <span itemprop="address">11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
         </div>
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           Ежедневно 24 часа в сутки<br>
         </div>

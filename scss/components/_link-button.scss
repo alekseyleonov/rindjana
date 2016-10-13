@@ -5,6 +5,13 @@
   text-transform: uppercase;
   text-decoration: none;
   padding: 0 8px 1px 8px;
-  background: -webkit-linear-gradient(#fae177, #dbbe40);
   background: linear-gradient(#fae177, #dbbe40);
+  box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.15);
+  &:hover{
+    box-shadow: 0px 3px 7px 1px rgba(0, 0, 0, 0.25);
+  }
+  &:active{
+    background: linear-gradient(#dbbe40, #fae177);
+    box-shadow: 0px 2px 7px 1px rgba(0, 0, 0, 0.15);
+  }
 }

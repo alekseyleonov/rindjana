@@ -1,5 +1,119 @@
+header{
+  overflow: hidden;
+}
+
+.main-menu{
+  display: flex;
+  align-items: flex-start;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+.main-menu__item{
+  position: relative;
+  a{
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 9px 16px 17px 16px;
+  }
+}
+.main-menu__item:hover,
+.main-menu__item_active{
+  background: -webkit-linear-gradient(#c4e868, #b4de5c);
+  background: linear-gradient(#c4e868, #b4de5c);
+  .main-menu__item_hover-menu{
+    display: block;
+  }
+}
+.main-menu__item_active{
+  cursor: default;
+}
+
+.main-menu__item_icon{
+  @include icons-sprite(acorn);
+  margin: 10px 7px;
+}
 .main-menu__item_hover-menu{
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(#b4de5c, #80be36);
+  box-shadow: 0px 15px 10px -8px rgba(0, 0, 0, 0.15);
+  z-index: 20;
+  line-height: 1.2;
+  li{
+    padding-bottom: 10px;
+  }
+  a{
+    color: white;
+    font-size: 12px;
+    padding: 0 0 0 16px;
+    text-decoration: underline;
+  }
   .active-link{
     text-decoration: none;
+  }
+}
+
+.header-main{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px 4% 12px 4%;
+  font-family: 'Malgun Gothic Regular', sans-serif;
+  background: url(../img/leaf-header.png) no-repeat 38px -8px;
+}
+
+.header-nav{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #2f2e2d;
+  padding: 0 4% 0 2.5%;
+  .site-search{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 6px 2px 11px 0;
+    margin-left: 30px;
+  }
+  input{
+    background-color: #2f2e2d;
+    color: white;
+    font-size: 12px;
+    line-height: 1.7;
+    height: 2em;
+    width: 183px;
+    padding: 1px 7px;
+    outline: none;
+    border:{
+      top: 1px solid #dedede;
+      bottom: 1px solid #dedede;
+      left: 1px solid #dedede;
+      right: none;
+      top-left-radius: 2px;
+      bottom-left-radius: 2px;
+    }
+  }
+  button{
+    background-color: #e5c849;
+    border: none;
+    padding: 0;
   }
 }

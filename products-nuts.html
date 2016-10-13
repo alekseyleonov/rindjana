@@ -15,7 +15,7 @@
           <li class="main-menu__item"><a href="about.html">О&#160;компании</a></li>
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item">
-            <a href="#">Продукция</a>
+            <a href="index.html">Продукция</a>
             <ul class="main-menu__item_hover-menu">
               <li><a class="active-link">Орехи</a></li>
               <li><a href="products-fruits.html">Сухофрукты</a></li>
@@ -26,7 +26,7 @@
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item"><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
           <li class="main-menu__item_icon"></li>
-          <li class="main-menu__item"><a>Контакты</a></li>
+          <li class="main-menu__item"><a href="contacts.html">Контакты</a></li>
         </ul>
         <form class="site-search" action="index.html" method="post">
           <input type="search" name="site-search-field" value="" placeholder="Поиск...">
@@ -34,10 +34,10 @@
         </form>
       </nav>
       <div class="header__item header-main">
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           <span>Ежедневно 24 часа в сутки</span>
           <a class="contacts__call-req link-button" href="#">обратный звонок</a>
@@ -67,16 +67,16 @@
                 <img src="img/nuts-main-photo.png" alt="Орехи" width="43" height="25"/>
               </a>
               <ul class="sidebar-menu__submenu">
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Г</span>рецкий орех</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Ф</span>ундук</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">М</span>индаль</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Ф</span>исташка</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">П</span>екан</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">К</span>едровые</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">А</span>рахис</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">К</span>ешью</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">О</span>реховые смеси</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">Б</span>разильский орех</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_walnut.html"><span class="capital-letter">Г</span>рецкий орех</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_hazelnut.html"><span class="capital-letter">Ф</span>ундук</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_almond.html"><span class="capital-letter">М</span>индаль</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_pistachio.html"><span class="capital-letter">Ф</span>исташка</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_pekan.html"><span class="capital-letter">П</span>екан</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_kedo.html"><span class="capital-letter">К</span>едровые</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_peanut.html"><span class="capital-letter">А</span>рахис</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_cashew.html"><span class="capital-letter">К</span>ешью</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_nut-mix.html"><span class="capital-letter">О</span>реховые смеси</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-nuts_brazilian-nut.html"><span class="capital-letter">Б</span>разильский орех</a></li>
               </ul>
             </li>
             <li class="sidebar-menu__item">
@@ -117,10 +117,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/walnut.png" alt="Грецкий орех" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">Г</span>рецкий орех</a>
+                          <a class="product-item__product-name-link" href="products-nuts_walnut.html"><span class="capital-letter">Г</span>рецкий орех</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_walnut.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item">
@@ -128,10 +128,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/hazelnut.png" alt="Фундук" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">Ф</span>ундук</a>
+                          <a class="product-item__product-name-link" href="products-nuts_hazelnut.html"><span class="capital-letter">Ф</span>ундук</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_hazelnut.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item">
@@ -139,10 +139,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/almond.png" alt="Миндаль" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">М</span>индаль</a>
+                          <a class="product-item__product-name-link" href="products-nuts_almond.html"><span class="capital-letter">М</span>индаль</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_almond.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item">
@@ -150,10 +150,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/pistachio.png" alt="Фисташка" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">Ф</span>исташка</a>
+                          <a class="product-item__product-name-link" href="products-nuts_pistachio.html"><span class="capital-letter">Ф</span>исташка</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_pistachio.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item">
@@ -161,10 +161,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/pecan.png" alt="Пекан" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">П</span>екан</a>
+                          <a class="product-item__product-name-link" href="products-nuts_pekan.html     "><span class="capital-letter">П</span>екан</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_pekan.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item">
@@ -172,10 +172,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/kedo.png" alt="Кедровые орехи" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">К</span>едровые орехи</a>
+                          <a class="product-item__product-name-link" href="products-nuts_kedo.html"><span class="capital-letter">К</span>едровые орехи</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_kedo.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item">
@@ -183,10 +183,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/peanut.png" alt="Арахис" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">А</span>рахис</a>
+                          <a class="product-item__product-name-link" href="products-nuts_peanut.html"><span class="capital-letter">А</span>рахис</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_peanut.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item">
@@ -194,10 +194,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/cashew.png" alt="Кешью" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">К</span>ешью</a>
+                          <a class="product-item__product-name-link" href="products-nuts_cashew.html"><span class="capital-letter">К</span>ешью</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_cashew.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item">
@@ -205,10 +205,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/nut-mix.png" alt="Ореховые смеси" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">О</span>реховые смеси</a>
+                          <a class="product-item__product-name-link" href="products-nuts_nut-mix.html"><span class="capital-letter">О</span>реховые смеси</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_nut-mix.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item">
@@ -216,10 +216,10 @@
                           <div class="product-item__pic-wrapper">
                               <img src="img/product-img/brazilian-nut.png" alt="Бразильский орех" />
                           </div>
-                          <a class="product-item__product-name-link" href="#"><span class="capital-letter">Б</span>разильский орех</a>
+                          <a class="product-item__product-name-link" href="products-nuts_brazilian-nut.html"><span class="capital-letter">Б</span>разильский орех</a>
                           <span class="product-item__price-item">от <span>114</span> руб</span>
                           <button class="cart-button" type="button" name="button">Корзина</button>
-                          <a class="product-item__product-details-link" href="#">Подробнее</a>
+                          <a class="product-item__product-details-link" href="products-nuts_brazilian-nut.html">Подробнее</a>
                       </div>
                   </li>
                   <li class="product-item product-item_opasity_0"></li>
@@ -246,21 +246,21 @@
           <h3>Навигация</h3>
           <ul class="footer-info__nav">
             <li><a href="about.html">О компании</a></li>
-            <li><a href="#">Продукция</a></li>
+            <li><a href="index.html">Продукция</a></li>
             <li><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
-        <div class="address address">
+        <div class="address" itemscope itemtype="http://schema.org/Person">
           <b>Юридический адрес:</b><br>
-          <span class="address_margin">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
+          <span class="address_margin" itemprop="address">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
           <b>Адрес производства:</b><br>
-          <span>11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
+          <span itemprop="address">11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
         </div>
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           Ежедневно 24 часа в сутки<br>
         </div>

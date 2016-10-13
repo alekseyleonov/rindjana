@@ -15,7 +15,7 @@
           <li class="main-menu__item"><a href="about.html">О&#160;компании</a></li>
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item">
-            <a href="#">Продукция</a>
+            <a href="index.html">Продукция</a>
             <ul class="main-menu__item_hover-menu">
               <li><a href="products-nuts.html">Орехи</a></li>
               <li><a href="products-fruits.html">Сухофрукты</a></li>
@@ -34,10 +34,10 @@
         </form>
       </nav>
       <div class="header__item header-main">
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           <span>Ежедневно 24 часа в сутки</span>
           <a class="contacts__call-req link-button" href="#">обратный звонок</a>
@@ -68,7 +68,7 @@
               </a>
             </li>
             <li class="sidebar-menu__item">
-              <a class="sidebar-menu__item-link">
+              <a class="sidebar-menu__item-link" href="products-fruits.html">
                 <span>
                   <span class="capital-letter">С</span>ухофрукты
                 </span>
@@ -159,21 +159,21 @@
           <h3>Навигация</h3>
           <ul class="footer-info__nav">
             <li><a href="about.html">О компании</a></li>
-            <li><a href="#">Продукция</a></li>
+            <li><a href="index.html">Продукция</a></li>
             <li><a>Оплата и Доставка</a></li>
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
-        <div class="address address">
+        <div class="address" itemscope itemtype="http://schema.org/Person">
           <b>Юридический адрес:</b><br>
-          <span class="address_margin">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
+          <span class="address_margin" itemprop="address">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
           <b>Адрес производства:</b><br>
-          <span>11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
+          <span itemprop="address">11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
         </div>
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           Ежедневно 24 часа в сутки<br>
         </div>
@@ -189,8 +189,5 @@
       </div>
     </footer>
   </div>
-  <script type="text/javascript" src="http://localhost:35729/livereload.js">
-
-  </script>
 </body>
 </html>

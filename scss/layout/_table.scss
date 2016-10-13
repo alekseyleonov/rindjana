@@ -4,10 +4,10 @@ table{
   font-family: 'Malgun Gothic Bold';
   text-transform: uppercase;
   font-size: 10px;
-  thead{
+  .cart-table__header-row{
     font-family: 'Malgun Gothic Regular';
     font-weight: normal;
-    vertical-align: top;
+    vertical-align: middle;
     height: 52px;
   }
   .table-col-1{

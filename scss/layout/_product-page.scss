@@ -1,0 +1,16 @@
+.product-header{
+  display: flex;
+  align-items: center;
+  .product-header__header-item{
+    margin-right: 75px;
+  }
+}
+
+.product-item__pic-wrapper_mini{
+  width: 110px;
+  height: 110px;
+  img{
+    width: 74%;
+    height: auto;
+  }
+}

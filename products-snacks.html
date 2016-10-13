@@ -15,7 +15,7 @@
           <li class="main-menu__item"><a href="about.html">О&#160;компании</a></li>
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item">
-            <a href="#">Продукция</a>
+            <a href="index.html">Продукция</a>
             <ul class="main-menu__item_hover-menu">
               <li><a href="products-nuts.html">Орехи</a></li>
               <li><a href="products-fruits.html">Сухофрукты</a></li>
@@ -26,7 +26,7 @@
           <li class="main-menu__item_icon"></li>
           <li class="main-menu__item"><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
           <li class="main-menu__item_icon"></li>
-          <li class="main-menu__item"><a>Контакты</a></li>
+          <li class="main-menu__item"><a href="contacts.html">Контакты</a></li>
         </ul>
         <form class="site-search" action="index.html" method="post">
           <input type="search" name="site-search-field" value="" placeholder="Поиск...">
@@ -34,10 +34,10 @@
         </form>
       </nav>
       <div class="header__item header-main">
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           <span>Ежедневно 24 часа в сутки</span>
           <a class="contacts__call-req link-button" href="#">обратный звонок</a>
@@ -72,115 +72,116 @@
                 <span>
                   <span class="capital-letter">С</span>ухофрукты
                 </span>
-                <img src="img/fruits-main-photo.png" alt="Сухофрукты" width="35" height="22"/>
-              </a>
-            </li>
-            <li class="sidebar-menu__item">
-              <a class="sidebar-menu__item-link" href="#">
+              <img src="img/fruits-main-photo.png" alt="Сухофрукты" width="35" height="22"/>
+            </a>
+          </li>
+          <li class="sidebar-menu__item">
+            <a class="sidebar-menu__item-link" href="products-candied.html">
                 <span>
                   <span class="capital-letter">Ц</span>укаты
                 </span>
                 <img src="img/candied-main-photo.png" alt="Цукаты" width="49" height="23"/>
               </a>
             </li>
-            <li class="sidebar-menu__item  main_sidebar_active-menu-item">
-              <a class="sidebar-menu__item-link">
+            <li class="sidebar-menu__item">
+              <a class="sidebar-menu__item-link main__sidebar_active-menu-item">
                 <span>
                   <span class="capital-letter">С</span>неки
                 </span>
                 <img src="img/snacks-main-photo.png" alt="Снеки" width="38" height="19"/>
               </a>
               <ul class="sidebar-menu__submenu sidebar-menu__submenu_padding-bottom_15">
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">А</span>рахис в оболочке со вкусом васаби</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">А</span>рахис в оболочке со вкусом сыра</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">А</span>рахис в оболочке со вкусом чеснока</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">А</span>рахис в оболочке со вкусом барбекю</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">А</span>рахис в оболочке со вкусом креветки</a></li>
-                <li><a class="sidebar-menu__submenu-link" href="#"><span class="capital-letter">А</span>рахис в оболочке со вкусом курицы</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-snacks_peanut-wasabi.html"><span class="capital-letter">А</span>рахис в оболочке со вкусом васаби</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-snacks_peanut-cheese.html"><span class="capital-letter">А</span>рахис в оболочке со вкусом сыра</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-snacks_peanut-garlic.html"><span class="capital-letter">А</span>рахис в оболочке со вкусом чеснока</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-snacks_peanut-bbq.html"><span class="capital-letter">А</span>рахис в оболочке со вкусом барбекю</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-snacks_peanut-shrimp.html"><span class="capital-letter">А</span>рахис в оболочке со вкусом креветки</a></li>
+                <li><a class="sidebar-menu__submenu-link" href="products-snacks_peanut-chick.html"><span class="capital-letter">А</span>рахис в оболочке со вкусом курицы</a></li>
               </ul>
             </li>
           </ul>
         </aside>
-        <div class="main__contents">
-          <ul class="bread-crumbs">
-            <li><a href="index.html"><span>Г</span>лавная</a>&#160;/</li>
-            <li><a><span>П</span>родукция</a>&#160;/</li>
-            <li><a><strong><span>С</span>неки</strong></a></li>
-          </ul>
-          <ul class="main__products-list">
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/peanut-wasabi.png" alt="Арахис в оболочке со вкусом васаби" />
-                </div>
-                <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="#"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом васаби</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/peanut-cheese.png" alt="Арахис в оболочке со вкусом сыра" />
-                </div>
-                <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="#"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом сыра</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/peanut-garlic.png" alt="Арахис в оболочке со вкусом чеснока" />
-                </div>
-                <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="#"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом чеснока</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/peanut-bbq.png" alt="Арахис в оболочке со вкусом барбекю" />
-                </div>
-                <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="#"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом барбекю</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/peanut-shrimp.png" alt="Арахис в оболочке со вкусом креветки" />
-                </div>
-                <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="#"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом креветки</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
-            <li class="product-item">
-              <div class="product-item__wrapper">
-                <div class="product-item__pic-wrapper">
-                  <img src="img/product-img/peanut-chick.png" alt="Арахис в оболочке со вкусом курицы" />
-                </div>
-                <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="#"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом курицы</a>
-                <span class="product-item__price-item">от <span>114</span> руб</span>
-                <button class="cart-button" type="button" name="button">Корзина</button>
-                <a class="product-item__product-details-link" href="#">Подробнее</a>
-              </div>
-            </li>
+          <div class="main__contents">
+              <ul class="bread-crumbs">
+                  <li><a href="index.html"><span>Г</span>лавная</a>&#160;/</li>
+                  <li><a><span>П</span>родукция</a>&#160;/</li>
+                  <li><a><strong><span>С</span>неки</strong></a></li>
+              </ul>
+              <ul class="main__products-list">
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/peanut-wasabi.png" alt="Арахис в оболочке со вкусом васаби" />
+                          </div>
+                          <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="products-snacks_peanut-wasabi.html"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом васаби</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-snacks_peanut-wasabi.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/peanut-cheese.png" alt="Арахис в оболочке со вкусом сыра" />
+                          </div>
+                          <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="products-snacks_peanut-cheese.html"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом сыра</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-snacks_peanut-cheese.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/peanut-garlic.png" alt="Арахис в оболочке со вкусом чеснока" />
+                          </div>
+                          <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="products-snacks_peanut-garlic.html"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом чеснока</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-snacks_peanut-garlic.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/peanut-bbq.png" alt="Арахис в оболочке со вкусом барбекю" />
+                          </div>
+                          <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="products-snacks_peanut-bbq.html"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом барбекю</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-snacks_peanut-bbq.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/peanut-shrimp.png" alt="Арахис в оболочке со вкусом креветки" />
+                          </div>
+                          <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="products-snacks_peanut-shrimp.html"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом креветки</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-snacks_peanut-shrimp.html">Подробнее</a>
+                      </div>
+                  </li>
+                  <li class="product-item">
+                      <div class="product-item__wrapper">
+                          <div class="product-item__pic-wrapper">
+                              <img src="img/product-img/peanut-chick.png" alt="Арахис в оболочке со вкусом курицы" />
+                          </div>
+                          <a class="product-item__product-name-link product-item__product-name-link_font-size_07" href="products-snacks_peanut-chick.html"><span class="capital-letter">А</span>рахис в оболочке<br>со вкусом курицы</a>
+                          <span class="product-item__price-item">от <span>114</span> руб</span>
+                          <button class="cart-button" type="button" name="button">Корзина</button>
+                          <a class="product-item__product-details-link" href="products-snacks_peanut-chick.html">Подробнее</a>
+                      </div>
+                  </li>
 
-            <li class="product-item product-item_opasity_0"></li>
-            <li class="product-item product-item_opasity_0"></li>
-            <li class="product-item product-item_opasity_0"></li>
-          </ul>
-        <img class="main__leaf_right_48" src="img/leaf-main.png" alt="Лист" width="63" height="61"/>
-        <img class="main__leaf_back main__leaf_620-230" src="img/leaf-main-back.png" alt="Лист" width="63" height="61"/>
+                  <li class="product-item product-item_opasity_0"></li>
+                  <li class="product-item product-item_opasity_0"></li>
+                  <li class="product-item product-item_opasity_0"></li>
+              </ul>
+              <img class="main__leaf_right_48" src="img/leaf-main.png" alt="Лист" width="63" height="61"/>
+              <img class="main__leaf_back main__leaf_620-230" src="img/leaf-main-back.png" alt="Лист" width="63" height="61"/>
+          </div>
       </section>
       <section class="main__advantages">
         <h2>Наши преимущества<span class="underline"></span></h2>
@@ -198,21 +199,21 @@
           <h3>Навигация</h3>
           <ul class="footer-info__nav">
             <li><a href="about.html">О компании</a></li>
-            <li><a href="#">Продукция</a></li>
+            <li><a href="index.html">Продукция</a></li>
             <li><a href="pay-and-delivery.html">Оплата и Доставка</a></li>
             <li><a href="contacts.html">Контакты</a></li>
           </ul>
         </nav>
-        <div class="address address">
+        <div class="address" itemscope itemtype="http://schema.org/Person">
           <b>Юридический адрес:</b><br>
-          <span class="address_margin">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
+          <span class="address_margin" itemprop="address">117525, Россия, г. Москва, ул.Днепропетровская, д. 3, корп. 3, кв. 186</span>
           <b>Адрес производства:</b><br>
-          <span>11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
+          <span itemprop="address">11123, Россия, г. Москва, Шоссе Энтузиа&shy;стов, д. 56, строение 11</span>
         </div>
-        <div class="contacts">
+        <div class="contacts" itemscope itemtype="https://schema.org/Organization">
           <ul>
-            <li class="contacts__item contacts__phone">+7 (967) 063-66-06</li>
-            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru">nut.rf@yandex.ru</a></li>
+            <li class="contacts__item contacts__phone" itemprop="telephone">+7 (967) 063-66-06</li>
+            <li class="contacts__item contacts__email"><a href="mailto:nut.rf@yandex.ru" itemprop="email">nut.rf@yandex.ru</a></li>
           </ul>
           Ежедневно 24 часа в сутки<br>
         </div>

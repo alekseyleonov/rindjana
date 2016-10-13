@@ -1,5 +1,10 @@
 //Основные настройки контентной части главной страницы
 
+
+.main__contents{
+  width: 95%;
+}
+
 .main__content{
   position: relative;
   display: -webkit-box;
@@ -35,6 +40,13 @@
   z-index: 0;
 }
 
+.main__leaf{
+  position: absolute;
+  left: 32.7%;
+  bottom: -1px;
+  z-index: 5;
+}
+
 .main__leaf_back{
   position: absolute;
   top: 339px;
@@ -50,4 +62,63 @@
 }
 .sidebar-product-link:hover{
   color: $color_neon-green;
+}
+
+.main__advantages{
+  margin-top: -8px;
+  text-align: center;
+  padding: 33px 4% 64px 4%;
+  background: url(../img/advantages-background.png) no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 -4px;
+  z-index: 50;
+  opacity: .9999;
+  h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    font-family: "Malgun Gothic Regular", sans-serif;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: normal;
+  }
+  .underline{
+    display: inline-block;
+    margin-top: 7px;
+    width: 110px;
+    height: 1px;
+    background-color: black;
+  }
+  ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 28px 0 0 0;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 1.7;
+  }
+  li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 185px;
+  }
+  .main__advantages_margin-bottom_10{
+    margin-bottom: 7px;
+  }
+  .icon-portmone{
+    background-position: -76px -5px;
+  }
+  .icon-hand{
+    background-position: -76px -96px;
+  }
+  .icon-car{
+    background-position: -167px -96px;
+  }
+  .icon-document{
+    background-position: -167px -5px;
+  }
 }
